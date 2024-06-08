@@ -20,7 +20,7 @@
   @include breakpoint($large) {
     @include span(10 of 12 last);
     @include prefix(0.5 of 12);
-    @include suffix(0 of 12);
+    @include suffix(1.5 of 12);
   }
 
   .page__inner-wrap {
@@ -50,7 +50,7 @@
 
 .page__content {
   #about-me{
-    margin-top: -10em;
+    margin-top: 1em;
       &:before { 
         content: ''; 
         display: block; 
@@ -67,7 +67,7 @@
   }
 
   p, li, dl {
-    font-size: 1em;
+    font-size: 1.1em;
   }
 
   /* paragraph indents */

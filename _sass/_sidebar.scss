@@ -94,7 +94,7 @@
   img {
     max-width: 175px;
     min-width: 75px;
-    border-radius: 50%;
+    border-radius: 5%;
 
     @include breakpoint($large) {
       padding: 5px;
@@ -108,7 +108,7 @@
   vertical-align: top;
   padding-left: 10px;
   min-width: 120px;
-  // padding-right: 25px;
+  padding-right: 25px;
   line-height: 1;
 
   @include breakpoint($large) {
@@ -121,6 +121,7 @@
 
 .author__name {
   margin: 0;
+  text-align: center;
 
   @include breakpoint($large) {
     margin-top: 10px;
@@ -130,7 +131,7 @@
 
 .sidebar .author__name {
   @include breakpoint($medium) {
-    font-size: $type-size-3;
+    font-size: $type-size-4;
   }
   font-family: $sans-serif;
   font-size: $type-size-4;
@@ -138,6 +139,7 @@
 
 .author__bio {
   margin: 0;
+  text-align: center;
 
   @include breakpoint($large) {
     margin-top: 10px;
