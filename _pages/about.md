@@ -41,7 +41,7 @@ Yongxin Guo*, **Zhenglin Cheng\***, Xiaoying Tang, Tao Lin
 </div>
 
 # News
-- 2022/06/04: 🔮 Successfully defended my undergraduate thesis!
+- 2024/06/04: 🔮 Successfully defended my undergraduate thesis!
 
 # Educations
 - *2020/09 - 2024/07 (now)*, Zhejiang University, College of Computer Science and Technology.
