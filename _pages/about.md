@@ -19,11 +19,11 @@ redirect_from:
 
 # About Me
 
-Hi! I am **Zhenglin Cheng**, a senior undergraduate student at [Zhejiang University](http://www.zju.edu.cn/english/). I am also a incoming Ph.D. student at [LINs lab, Westlake University](https://lins-lab.github.io). I love to write [notes](https://qaqdev.github.io/notes) (in Chinese), which can bring me a sense of accomplishment.
+Hi! I am **Zhenglin Cheng**, a senior undergraduate student at [Zhejiang University](http://www.zju.edu.cn/english/). I am also a incoming Ph.D. student at [LINs lab, Westlake University](https://lins-lab.github.io). I love to write and share [something](https://qaqdev.github.io/notes) (in Chinese), which can bring me a sense of accomplishment.
 
 # Research Interests
 
-My research interests are generally within the scope of **efficiency of AI systems**, specifically in <u>architectural design</u>, <u>training, and deploying / inference paradigms</u>. Still exploring! 🙌
+My research interests are generally within the scope of **efficiency of AI systems (such as large language models)**, specifically in <u>model architectural design</u>, <u>training accelerating techniques</u>, and <u>deploying / inference paradigms</u>. Still exploring! 🙌
 
 # Publications/Manuscripts
 
@@ -50,5 +50,7 @@ Yongxin Guo*, **Zhenglin Cheng\***, Xiaoying Tang, Tao Lin
 
 # Educations
 - *2020/09 - 2024/07 (now)*, Zhejiang University, College of Computer Science and Technology.
+
+<hr>
 
 <script type="text/javascript" src="//rf.revolvermaps.com/0/0/6.js?i=5fuz11wg2dh&m=7&c=e63100&cr1=ffffff&f=arial&l=0&bv=90&lx=-420&ly=420&hi=20&he=7&hc=a8ddff&rs=80" async="async"></script>
