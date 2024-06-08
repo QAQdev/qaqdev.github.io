@@ -34,7 +34,12 @@ My research interests are generally within the scope of **efficiency of AI syste
 
 Yongxin Guo*, **Zhenglin Cheng\***, Xiaoying Tang, Tao Lin
 
-[<a href="https://github.com/LINs-lab/DynMoE/"><i class="fab fa-fw fa-github" aria-hidden="true"></i>LINs-lab/DynMoE</a>], [🤗 <a href="https://huggingface.co/collections/LINs-lab/dynmoe-family-665ed5a331a7e84463cab01a">HF Checkpoints</a>]
+<a href="https://github.com/LINs-lab/DynMoE" style="text-decoration: none; color: inherit; background-color: transparent;">
+  <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/LINs-lab/DynMoE?logo=github&label=LINs-lab%2FDynMoE" style="transition: none; box-shadow: none;" />
+</a> <a href="https://huggingface.co/collections/LINs-lab/dynmoe-family-665ed5a331a7e84463cab01a" style="text-decoration: none; color: inherit; background-color: transparent;">
+  <img alt="HF Checkpoints" src="https://img.shields.io/badge/%F0%9F%A4%97-HF_Checkpoints-yellow
+  " style="transition: none; box-shadow: none;" />
+</a>
 
 👉 DynMoE enables each token to ***automatically determine the number of experts to activate*** and ***automatically adjusts the number of experts*** during training.
 </div>
