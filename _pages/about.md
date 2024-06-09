@@ -19,7 +19,7 @@ redirect_from:
 
 # About Me
 
-Hi! I am **Zhenglin Cheng**, a senior undergraduate student at [Zhejiang University](http://www.zju.edu.cn/english/). I am also a incoming Ph.D. student at [LINs lab, Westlake University](https://lins-lab.github.io). I love to write and share [something](https://qaqdev.github.io/notes) (in Chinese), which can bring me a sense of accomplishment.
+Hi! I am **Zhenglin Cheng**, a senior undergraduate student at [Zhejiang University](http://www.zju.edu.cn/english/). I am also an incoming Ph.D. student at [LINs lab, Westlake University](https://lins-lab.github.io). I love to write and share [something](https://qaqdev.github.io/notes) (in Chinese), which can bring me a sense of accomplishment.
 
 # Research Interests
 
