@@ -15,13 +15,17 @@
       return;
     }
 
-    latest_work = "dynmoe"
-    const targetElement = document.getElementById(latest_work);
-    if (targetElement) {
-        const rect = targetElement.getBoundingClientRect();
-        mousePosX = rect.left + rect.width / 2;
-        mousePosY = rect.top;
+    // 获取目标元素的位置
+    function updateTargetPosition() {
+        latest_work = "dynmoe"
+        const targetElement = document.getElementById(latest_work);
+        if (targetElement) {
+            const rect = targetElement.getBoundingClientRect();
+            mousePosX = rect.left + rect.width / 2;
+            mousePosY = rect.top;
+        }
     }
+    updateTargetPosition(); // 初始位置
   
     let frameCount = 0;
     let idleTime = 0;
@@ -182,7 +186,10 @@
     }
   
     function frame() {
+
       frameCount += 1;
+
+      updateTargetPosition();
       const diffX = nekoPosX - mousePosX;
       const diffY = nekoPosY - mousePosY;
       const distance = Math.sqrt(diffX ** 2 + diffY ** 2);
