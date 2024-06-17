@@ -19,6 +19,8 @@ redirect_from:
 
 # About Me
 
+<center id='pin'><span style="color: gray; font-family: monospace;">May oneko 🐱‍🚀 guide you to my latest work!</span></center>
+
 Hello! I am **Zhenglin Cheng**, a senior undergraduate student at <img src="images/zju-logo.png" style="width: 26px;height: auto;display: inline-block;vertical-align: middle">  [Zhejiang University](http://www.zju.edu.cn/english/) (ZJU). I am also an incoming Ph.D. student at <img src="images/lab-logo.png" style="width: 23px;height: auto;display: inline-block;vertical-align: middle"> [LINs lab, Westlake University](https://lins-lab.github.io) (through joint program with ZJU). I love to write ✍️ and post 📬 [something](https://qaqdev.github.io/notes) (in Chinese), which could bring me a sense of accomplishment.
 
 # Research Interests
@@ -27,7 +29,7 @@ My research interests are generally within the scope of **efficiency of AI syste
 
 # Publications/Manuscripts
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv 2024</div><img src='images/adaptive.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv 2024</div><img id="dynmoe" src='images/adaptive.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [📖 Dynamic Mixture of Experts: An Auto-Tuning Approach for Efficient Transformer Models](https://arxiv.org/abs/2405.14297)
@@ -54,3 +56,5 @@ Yongxin Guo*, **Zhenglin Cheng\***, Xiaoying Tang, Tao Lin
 <hr>
 
 <script type="text/javascript" src="//rf.revolvermaps.com/0/0/6.js?i=5fuz11wg2dh&m=7&c=e63100&cr1=ffffff&f=arial&l=0&bv=90&lx=-420&ly=420&hi=20&he=7&hc=a8ddff&rs=80" async="async"></script>
+
+<script type="text/javascript" src="assets/js/oneko.js" async="async"></script>
