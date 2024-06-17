@@ -29,8 +29,8 @@ My research interests are generally within the scope of **efficiency of AI syste
 
 # Publications/Manuscripts
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv 2024</div><img id="dynmoe" src='images/adaptive.jpg' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv 2024</div><img src='images/adaptive.jpg' alt="sym" width="100%"></div></div>
+<div id="dynmoe" class='paper-box-text' markdown="1">
 
 [📖 Dynamic Mixture of Experts: An Auto-Tuning Approach for Efficient Transformer Models](https://arxiv.org/abs/2405.14297)
 
