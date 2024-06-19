@@ -21,7 +21,9 @@ redirect_from:
 
 <center id='pin'><span style="color: gray; font-family: monospace;">May oneko 🐱‍🚀 guide you to my latest work!</span></center>
 
-Hello! I am **Zhenglin Cheng**, a senior undergraduate student at <img src="images/zju-logo.png" style="width: 26px;height: auto;display: inline-block;vertical-align: middle">  [Zhejiang University](http://www.zju.edu.cn/english/) (ZJU). I am also an incoming Ph.D. student at <img src="images/lab-logo.png" style="width: 23px;height: auto;display: inline-block;vertical-align: middle"> [LINs lab, Westlake University](https://lins-lab.github.io) (through joint program with ZJU). I love to write ✍️ and post 📬 [something](https://qaqdev.github.io/notes) (in Chinese), which could bring me a sense of accomplishment.
+Hello! I am **Zhenglin Cheng**, a senior undergraduate student at <img src="images/zju-logo.png" style="width: 20px;height: auto;display: inline-block;vertical-align: middle">  [Zhejiang University](http://www.zju.edu.cn/english/) (ZJU). I am also an incoming Ph.D. student at <img src="images/lab-logo.png" style="width: 19px;height: auto;display: inline-block;vertical-align: middle"> [LINs lab, Westlake University](https://lins-lab.github.io) (through joint program with ZJU), advised by Prof. [Tao LIN](https://tlin-taolin.github.io/).
+
+I love to write ✍️ and post 📬 [something](https://qaqdev.github.io/notes) (from technical notes to life stuff), I also practice Chinese traditional calligraphy to relax occasionally.
 
 # Research Interests
 
@@ -57,4 +59,4 @@ Yongxin Guo*, **Zhenglin Cheng\***, Xiaoying Tang, Tao Lin
 
 <script type="text/javascript" src="//rf.revolvermaps.com/0/0/6.js?i=5fuz11wg2dh&m=7&c=e63100&cr1=ffffff&f=arial&l=0&bv=90&lx=-420&ly=420&hi=20&he=7&hc=a8ddff&rs=80" async="async"></script>
 
-<script type="text/javascript" src="assets/js/oneko.js" async="async"></script>
+<script type="text/javascript" src="assets/js/oneko.js"></script>

@@ -5,8 +5,8 @@
     const aboutMe = document.getElementById('pin')
     const aboutMeRect = aboutMe.getBoundingClientRect();
 
-    let nekoPosX = aboutMeRect.left + aboutMeRect.width / 2;
-    let nekoPosY = aboutMeRect.top;
+    let nekoPosX = aboutMeRect.left + Math.random() * aboutMeRect.width;
+    let nekoPosY = aboutMeRect.bottom +  Math.random() * aboutMeRect.height;
     let mousePosX = 0;
     let mousePosY = 0;
     let hasReachedTarget = false;
