@@ -45,15 +45,15 @@ Yongxin Guo*, **Zhenglin Cheng\***, Xiaoying Tang, Tao Lin
   " style="transition: none; box-shadow: none;" />
 </a>
 
-👉 DynMoE enables each token to ***automatically determine the number of experts to activate*** and ***automatically adjusts the number of experts*** during training.
+👉 DynMoE enables each token to **automatically determine the number of experts to activate** and **automatically adjusts the number of experts** during training.
 </div>
 </div>
 
 # News
-- 2024/06/04: 🔮 Successfully defended my undergraduate thesis, ready to graduate!
+- 2024/06: 🔮 Successfully defended my undergraduate thesis, ready to graduate!
 
 # Educations
-- *2020/09 - present*, Zhejiang University, College of Computer Science and Technology.
+- *2020/09 - 2024/06*, Zhejiang University, College of Computer Science and Technology.
 
 <hr>
 
