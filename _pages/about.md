@@ -31,6 +31,8 @@ My research interests are generally within the scope of **efficiency of AI syste
 
 # Publications/Manuscripts
 
+<!-- DynMoE -->
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv 2024</div><img src='images/adaptive.jpg' alt="sym" width="100%"></div></div>
 <div id="dynmoe" class='paper-box-text' markdown="1">
 
@@ -46,6 +48,29 @@ Yongxin Guo*, **Zhenglin Cheng\***, Xiaoying Tang, Tao Lin
 </a>
 
 👉 DynMoE enables each token to **automatically determine the number of experts to activate** and **automatically adjusts the number of experts** during training.
+</div>
+</div>
+
+<!-- Mutimodal Self Instruct -->
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv 2024</div><img src='images/MSI.png' alt="sym" width="100%"></div></div>
+<div id="msi" class='paper-box-text' markdown="1">
+
+[📖 Multimodal Self-Instruct: Synthetic Abstract Image and Visual Reasoning Instruction Using Language Model](https://arxiv.org/abs/2407.07053)
+
+<!-- Zhenglin (listed as second co-first author) wrote ALL the code (pipeline and evaluation), did ALL model training, ALL experiments, 90% and more datasets generation and formatting while the co-first author DID NONE OF THE ABOVE.-->
+
+Wenqi Zhang*, **Zhenglin Cheng\***, Yuanyu He, Mengna Wang, Yongliang Shen, Zeqi Tan, Guiyang Hou, Mingqian He, Yanna Ma, Weiming Lu, Yueting Zhuang
+
+<a href="https://multi-modal-self-instruct.github.io/" style="text-decoration: none; color: inherit; background-color: transparent;">
+  <img alt="Project" src="https://img.shields.io/badge/🌐 Project-blue" style="transition: none; box-shadow: none;" />
+</a> <a href="https://github.com/zwq2018/Multi-modal-Self-instruct" style="text-decoration: none; color: inherit; background-color: transparent;">
+  <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/zwq2018/Multi-modal-Self-instruct?logo=github&label=Multi-modal-Self-instruct" style="transition: none; box-shadow: none;" />
+</a> <a href="https://huggingface.co/datasets/zwq2018/Multi-modal-Self-instruct" style="text-decoration: none; color: inherit; background-color: transparent;">
+  <img alt="HF Datasets" src="https://img.shields.io/badge/%F0%9F%A4%97-HF_Datasets-yellow
+  " style="transition: none; box-shadow: none;" />
+</a>
+
+👉 Multi-modal self-instruct utilizes **LLMs** and their **code capabilities** to synthesize massive **images and visual reasoning instructions** across daily scenarios.
 </div>
 </div>
 
