@@ -29,7 +29,7 @@ I love to write ✍️ and post 📬 [something](https://qaqdev.github.io/notes)
 
 My research interests are generally within the scope of **efficiency of AI systems (such as large language models)**, specifically in <u>model architectural optimization</u>, <u>training accelerating techniques</u>, and <u>deploying / inference paradigms</u>. Still exploring! 🙌
 
-# Publications/Manuscripts
+# Publications/Manuscripts <span style="color: gray; font-size: 13px; font-family: monospace;">(* denotes equal contribution)</span>
 
 <!-- DynMoE -->
 
