@@ -19,11 +19,11 @@ redirect_from:
 
 # About Me
 
-<center id='pin'><span style="color: gray; font-family: monospace;">May oneko 🐱‍🚀 guide you to my latest work!</span></center>
+<center id='pin'><span style="color: gray; font-family: monospace;">May oneko 🐱‍🚀 lead you to my latest work!</span></center>
 
-Hello! I am **Zhenglin Cheng**, a senior undergraduate student at <img src="images/zju-logo.png" style="width: 20px;height: auto;display: inline-block;vertical-align: middle">  [Zhejiang University](http://www.zju.edu.cn/english/) (ZJU). I am also an incoming Ph.D. student at <img src="images/lab-logo.png" style="width: 19px;height: auto;display: inline-block;vertical-align: middle"> [LINs lab, Westlake University](https://lins-lab.github.io) (through joint program with ZJU), advised by Prof. [Tao LIN](https://tlin-taolin.github.io/).
+Hello! I am **Zhenglin Cheng**, an incoming Ph.D. student at <img src="images/lab-logo.png" style="width: 19px;height: auto;display: inline-block;vertical-align: middle"> [LINs lab, Westlake University](https://lins-lab.github.io) (through joint program with ZJU), advised by Prof. [Tao LIN](https://tlin-taolin.github.io/). Before that, I received my bachelor's degree in Software Engineering from <img src="images/zju-logo.png" style="width: 20px;height: auto;display: inline-block;vertical-align: middle">  [Zhejiang University](http://www.zju.edu.cn/english/) (ZJU).
 
-I love to write ✍️ and post 📬 [something](https://qaqdev.github.io/notes) (from technical notes to life stuff), I also practice Chinese traditional calligraphy to relax occasionally.
+I love to write ✍️ and post 📬 [something](https://qaqdev.github.io/notes) (from technical notes to life stuff). I also practice Chinese traditional calligraphy to relax occasionally.
 
 # Research Interests
 
