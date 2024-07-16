@@ -19,21 +19,25 @@ redirect_from:
 
 # About Me
 
-<center id='pin'><span style="color: gray; font-family: monospace;">May oneko 🐱‍🚀 lead you to my latest work!</span></center>
+<center id='pin'><span style="color: gray; font-family: monospace;">May oneko <img src="images/android-chrome-512x512.png" style="width: 21px;height: auto;display: inline-block;vertical-align: top"> lead you to my latest work!</span></center>
 
-Hello! I am **Zhenglin Cheng**, an incoming Ph.D. student at <img src="images/lab-logo.png" style="width: 19px;height: auto;display: inline-block;vertical-align: middle"> [LINs lab, Westlake University](https://lins-lab.github.io) (through joint program with ZJU), advised by Prof. [Tao LIN](https://tlin-taolin.github.io/). Before that, I received my bachelor's degree in Software Engineering from <img src="images/zju-logo.png" style="width: 20px;height: auto;display: inline-block;vertical-align: middle">  [Zhejiang University](http://www.zju.edu.cn/english/) (ZJU).
+Hello! I am **Zhenglin Cheng**, an incoming Ph.D. student of <img src="images/lab-logo.png" style="width: 19px;height: auto;display: inline-block;vertical-align: middle"> [LINs lab, Westlake University](https://lins-lab.github.io) (through joint program with ZJU), advised by [Prof. Tao LIN](https://tlin-taolin.github.io/). Before that, I received my bachelor's degree in Software Engineering from <img src="images/zju-logo.png" style="width: 20px;height: auto;display: inline-block;vertical-align: middle">  [Zhejiang University](http://www.zju.edu.cn/english/) (ZJU).
 
-I love to write ✍️ and post 📬 [something](https://qaqdev.github.io/notes) (from technical notes to life stuff). I also practice Chinese traditional calligraphy to relax occasionally.
+I love to write and post [something](https://qaqdev.github.io/notes) (from technical notes to life stuff). I also practice Chinese traditional calligraphy to relax occasionally.
 
 # Research Interests
 
 My research interests are generally within the scope of **efficiency of AI systems (such as large language models)**, specifically in <u>model architectural optimization</u>, <u>training accelerating techniques</u>, and <u>deploying / inference paradigms</u>. Still exploring! 🙌
 
+<!-- <div style="width: 50%; height: 300px; display: flex; justify-content: center; align-items: center;">
+  <img src="images/scope.jpg" alt="scope" style="max-width: 100%; height: auto;">
+</div> -->
+
 # Publications/Manuscripts <span style="color: gray; font-size: 13px; font-family: monospace;">(* denotes equal contribution)</span>
 
 <!-- DynMoE -->
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv 2024</div><img src='images/adaptive.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv'24</div><img src='images/adaptive.jpg' alt="sym" width="100%"></div></div>
 <div id="dynmoe" class='paper-box-text' markdown="1">
 
 [📖 Dynamic Mixture of Experts: An Auto-Tuning Approach for Efficient Transformer Models](https://arxiv.org/abs/2405.14297)
@@ -52,7 +56,7 @@ Yongxin Guo*, **Zhenglin Cheng\***, Xiaoying Tang, Tao Lin
 </div>
 
 <!-- Mutimodal Self Instruct -->
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv 2024</div><img src='images/MSI.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv'24</div><img src='images/MSI.png' alt="sym" width="100%"></div></div>
 <div id="msi" class='paper-box-text' markdown="1">
 
 [📖 Multimodal Self-Instruct: Synthetic Abstract Image and Visual Reasoning Instruction Using Language Model](https://arxiv.org/abs/2407.07053)

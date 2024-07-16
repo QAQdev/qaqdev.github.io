@@ -1,7 +1,7 @@
 # main links links
 main:
-  - title: "Publications/Manuscripts"
-    url: "/#-publicationsmanuscripts"
+  # - title: "Publications/Manuscripts"
+  #   url: "/#-publicationsmanuscripts"
 
   - title: "Notes"
     url: "/notes"

@@ -107,6 +107,9 @@ h1:before, .anchor:before {
     margin-top: .5em;
     margin-left: -.5em;
     color: white;
-    background-color: #00369f;
+    // background-color: #00369f;
+    background-image: linear-gradient(to top, #203f7a 0%, #20407c 1%, #2a5298 100%);
     font-size: .8em;
+    border-radius: 2px;
+    font-family: monospace
 }
