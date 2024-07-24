@@ -79,7 +79,7 @@ Wenqi Zhang*, **Zhenglin Cheng\***, Yuanyu He, Mengna Wang, Yongliang Shen, Zeqi
 </div>
 
 # News
-- 2024/07: <img src="[images/lab-logo.png](https://avatars.githubusercontent.com/u/136167093?s=280&v=4)" style="width: 19px;height: auto;display: inline-block;vertical-align: middle"> Excited to intern at Baichuan AI on multimodal LLM pretraining!
+- 2024/07: 👏 Excited to intern at Baichuan AI on multimodal LLM pretraining!
 - 2024/06: 🔮 Successfully defended my undergraduate thesis, ready to graduate!
 
 # Educations
