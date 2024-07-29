@@ -27,9 +27,9 @@ I love to write and post [something](https://qaqdev.github.io/notes) (from techn
 
 # Research Interests
 
-My research interests are generally within the scope of **efficiency of AI systems (such as large language models)**, specifically in <u>model architectural optimization</u>, <u>training accelerating techniques</u>, and <u>deploying / inference paradigms</u>. Still exploring! 🙌
+My research interests are generally within the scope of **efficiency of AI systems (such as large language models)**, specifically in <u>model architectural optimization</u>, <u>training accelerating techniques</u>, and <u>efficient inference paradigms</u>. Actively exploring! 🙌
 
-<!-- <div style="width: 50%; height: 300px; display: flex; justify-content: center; align-items: center;">
+<!-- <div style="width: 50%; height: 300px; display: center; justify-content: center; align-items: center;">
   <img src="images/scope.jpg" alt="scope" style="max-width: 100%; height: auto;">
 </div> -->
 
@@ -51,7 +51,7 @@ Yongxin Guo*, **Zhenglin Cheng\***, Xiaoying Tang, Tao Lin
   " style="transition: none; box-shadow: none;" />
 </a>
 
-👉 DynMoE enables each token to **automatically determine the number of experts to activate** and **automatically adjusts the number of experts** during training.
+👉 DynMoE **frees the burden of pivotal hyper-parameter selection for MoE training** by enabling each token to activate different number of experts, and adjusting the number of experts automatically during training.
 </div>
 </div>
 
@@ -74,7 +74,7 @@ Wenqi Zhang*, **Zhenglin Cheng\***, Yuanyu He, Mengna Wang, Yongliang Shen, Zeqi
   " style="transition: none; box-shadow: none;" />
 </a>
 
-👉 Multi-modal self-instruct utilizes **LLMs** and their **code capabilities** to synthesize massive **images and visual reasoning instructions** across daily scenarios.
+👉 Multimodal self-instruct utilizes **LLMs** and their **code capabilities** to synthesize massive **images and visual reasoning instructions** across daily scenarios.
 </div>
 </div>
 
