@@ -59,7 +59,7 @@ Yongxin Guo*, **Zhenglin Cheng\***, Xiaoying Tang, Tao Lin
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv'24</div><img src='images/MSI.png' alt="sym" width="100%"></div></div>
 <div id="msi" class='paper-box-text' markdown="1">
 
-[📖 Multimodal Self-Instruct: Synthetic Abstract Image and Visual Reasoning Instruction Using Language Model](https://arxiv.org/abs/2407.07053)
+[📖 Multimodal Self-Instruct: Synthetic Abstract Image and Visual Reasoning Instruction Using Language Model](https://arxiv.org/abs/2407.07053) <span style="color: gray; font-size: 13px; font-family: monospace;">(inherited from my undergrad thesis)</span>
 
 <!-- Zhenglin (listed as second co-first author) wrote ALL the code (pipeline and evaluation), did ALL model training, ALL experiments, 90% and more datasets generation and formatting while the co-first author DID NONE OF THE ABOVE.-->
 
@@ -74,13 +74,13 @@ Wenqi Zhang*, **Zhenglin Cheng\***, Yuanyu He, Mengna Wang, Yongliang Shen, Zeqi
   " style="transition: none; box-shadow: none;" />
 </a>
 
-👉 Multimodal self-instruct utilizes **LLMs** and their **code capabilities** to synthesize massive **images and visual reasoning instructions** across daily scenarios.
+👉 Multimodal self-instruct utilizes LLMs and their code capabilities to **synthesize massive abstract images and visual reasoning instructions** across daily scenarios such as charts, graphs, visual puzzles, etc.
 </div>
 </div>
 
 # News
 - 2024/07: 👏 Excited to intern at Baichuan AI on multimodal LLM pretraining!
-- 2024/06: 🔮 Successfully defended my undergraduate thesis, ready to graduate!
+- 2024/06: 🔮 Successfully defended my [undergraduate thesis](https://arxiv.org/abs/2407.07053), ready to graduate.
 
 # Educations
 - *2020/09 - 2024/06*, Zhejiang University, College of Computer Science and Technology.
