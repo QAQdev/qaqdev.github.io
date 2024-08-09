@@ -12,10 +12,18 @@ $doc-font-size              : 14;
 $paragraph-indent           : false; // true, false (default)
 $indent-var                 : 0.5em;
 
+$optima: 'Optima'; 
+$optima-path: './Optima.ttc'; 
+
+@font-face {  
+   font-family: $optima; 
+   src: url($optima-path) format('truetype');
+ }  
+
 /* system typefaces */
-$serif                      : Optima, Georgia, Times, serif;
+$serif                      : $optima, Georgia, Times, serif;
 // $sans-serif                 : "Trebuchet MS", Helvetica, sans-serif;
-$sans-serif                 : Optima, Georgia, serif, sans-serif;
+$sans-serif                 : $optima, Georgia, serif, sans-serif;
 
 // $sans-serif                 : -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
 $monospace                  : Monaco, Consolas, "Lucida Console", monospace;
