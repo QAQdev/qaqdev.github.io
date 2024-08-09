@@ -73,7 +73,7 @@ Wenqi Zhang*, **Zhenglin Cheng\***, Yuanyu He, Mengna Wang, Yongliang Shen, Zeqi
   <img alt="HF Datasets" src="https://img.shields.io/badge/%F0%9F%A4%97-HF_Datasets-yellow
   " style="transition: none; box-shadow: none;" />
 </a> <a href="https://mp.weixin.qq.com/s/lebsZgdlp3iJRSaMXc5COg" style="text-decoration: none; color: inherit; background-color: transparent;">
-  <img alt="HF Datasets" src="https://img.shields.io/badge/-WeChat@新智元-000000?logo=wechat&logoColor=07C160" style="transition: none; box-shadow: none;" />
+  <img alt="HF Datasets" src="https://img.shields.io/badge/-WeChat@%E6%96%B0%E6%99%BA%E5%85%83-FFFFF0?logo=wechat&logoColor=07C160" style="transition: none; box-shadow: none;" />
 </a>
 
 
