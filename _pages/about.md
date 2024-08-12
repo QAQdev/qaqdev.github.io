@@ -27,7 +27,7 @@ I love to write and post [something](https://qaqdev.github.io/notes) (from techn
 
 # Research Interests
 
-My research interests are generally within the scope of **efficiency of AI systems (such as large language models)**, specifically in <u>model architectural optimization</u>, <u>training accelerating techniques</u>, and <u>efficient inference paradigms</u>. Actively exploring! 🙌
+My research interests are generally within the scope of **efficiency and effectiveness of AI systems (such as large language models)**, specifically in <u>model architectural optimization</u>, <u>training accelerating techniques</u>, and <u>efficient inference paradigms</u>. Actively exploring! 🙌
 
 <!-- <div style="width: 50%; height: 300px; display: center; justify-content: center; align-items: center;">
   <img src="images/scope.jpg" alt="scope" style="max-width: 100%; height: auto;">
@@ -59,9 +59,9 @@ Yongxin Guo*, **Zhenglin Cheng\***, Xiaoying Tang, Tao Lin
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv'24</div><img src='images/MSI.png' alt="sym" width="100%"></div></div>
 <div id="msi" class='paper-box-text' markdown="1">
 
-[📖 Multimodal Self-Instruct: Synthetic Abstract Image and Visual Reasoning Instruction Using Language Model](https://arxiv.org/abs/2407.07053) <span style="color: gray; font-size: 13px; font-family: monospace;">(inherited from my undergrad thesis)</span>
+[📖 Multimodal Self-Instruct: Synthetic Abstract Image and Visual Reasoning Instruction Using Language Model](https://arxiv.org/abs/2407.07053) (inherited from my undergrad thesis)
 
-<!-- Zhenglin (listed as second co-first author) wrote ALL the code (pipeline and evaluation), did ALL model training, ALL experiments, 90% and more datasets generation and formatting while the co-first author DID NONE OF THE ABOVE.-->
+<!-- Zhenglin (listed as second co-first author) did ALL preliminary exploration, wrote ALL the code (pipeline and evaluation), did ALL model training, ALL experiments, 90% and more datasets generation and formatting while the first co-first author DID NONE OF THE ABOVE. -->
 
 Wenqi Zhang*, **Zhenglin Cheng\***, Yuanyu He, Mengna Wang, Yongliang Shen, Zeqi Tan, Guiyang Hou, Mingqian He, Yanna Ma, Weiming Lu, Yueting Zhuang
 
