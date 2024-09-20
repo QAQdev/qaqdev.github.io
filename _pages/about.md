@@ -56,7 +56,7 @@ My research interests are generally within the scope of **efficiency and effecti
 </div>
 
 <!-- Mutimodal Self Instruct -->
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv'24</div><img src='images/MSI.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">EMNLP'24 (Main)</div><img src='images/MSI.png' alt="sym" width="100%"></div></div>
 <div id="msi" class='paper-box-text' markdown="1">
 
 [📖 Multimodal Self-Instruct: Synthetic Abstract Image and Visual Reasoning Instruction Using Language Model](https://arxiv.org/abs/2407.07053) (inherited from my undergrad thesis)
@@ -82,7 +82,8 @@ My research interests are generally within the scope of **efficiency and effecti
 </div>
 
 # News
-- 2024/07: 👏 Excited to intern at Baichuan AI on multimodal LLM pretraining!
+- 2024/09: 🥳 [Mutimodal Self-Instruct](https://arxiv.org/abs/2407.07053) is accepted by EMNLP'24 (Main)!
+- 2024/07: 👏 Excited to intern at Baichuan AI on multimodal LLM pretraining, working on tech report.
 - 2024/06: 🔮 Successfully defended my [undergraduate thesis](https://arxiv.org/abs/2407.07053), ready to graduate.
 
 # Educations
