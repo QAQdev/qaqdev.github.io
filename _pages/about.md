@@ -42,7 +42,7 @@ My research interests are generally within the scope of **efficiency and effecti
 
 [📖 Dynamic Mixture of Experts: An Auto-Tuning Approach for Efficient Transformer Models](https://arxiv.org/abs/2405.14297)
 
-*Yongxin Guo\*, **Zhenglin Cheng\***, Xiaoying Tang, Tao Lin*
+*Yongxin Guo\*, **Zhenglin Cheng\***, Xiaoying Tang, Zhaopeng Tu, Tao Lin*
 
 <a href="https://github.com/LINs-lab/DynMoE" style="text-decoration: none; color: inherit; background-color: transparent;">
   <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/LINs-lab/DynMoE?logo=github&label=LINs-lab%2FDynMoE" style="transition: none; box-shadow: none;" />
