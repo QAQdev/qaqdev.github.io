@@ -71,10 +71,13 @@ My research interests are generally within the scope of **efficiency and effecti
   <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/zwq2018/Multi-modal-Self-instruct?logo=github&label=Multi-modal-Self-instruct" style="transition: none; box-shadow: none;" />
 </a> <a href="https://huggingface.co/datasets/zwq2018/Multi-modal-Self-instruct" style="text-decoration: none; color: inherit; background-color: transparent;">
   <img alt="HF Datasets" src="https://img.shields.io/badge/%F0%9F%A4%97-HF_Datasets-yellow
-  " style="transition: none; box-shadow: none;" /> <a><img src="https://img.shields.io/badge/🏆 - Oral Presentation -b31b1b" style="transition: none; box-shadow: none;" /></a>
-<!-- </a> <a href="https://mp.weixin.qq.com/s/lebsZgdlp3iJRSaMXc5COg" style="text-decoration: none; color: inherit; background-color: transparent;">
+  " style="transition: none; box-shadow: none;" />
+</a> <a href="https://mp.weixin.qq.com/s/lebsZgdlp3iJRSaMXc5COg" style="text-decoration: none; color: inherit; background-color: transparent;">
   <img alt="HF Datasets" src="https://img.shields.io/badge/-WeChat@%E6%96%B0%E6%99%BA%E5%85%83-FFFFF0?logo=wechat&logoColor=07C160" style="transition: none; box-shadow: none;" />
-</a> -->
+</a>
+
+<!-- <a href="https://huggingface.co/datasets/zwq2018/Multi-modal-Self-instruct" style="text-decoration: none; color: inherit; background-color: transparent;">
+<img alt="HF Datasets" src="https://img.shields.io/badge/%F0%9F%A4%97-HF_Datasets-yellow" style="transition: none; box-shadow: none;" /> <a><img src="https://img.shields.io/badge/🏆 - Oral Presentation -b31b1b" style="transition: none; box-shadow: none;" /></a> -->
 
 
 👉 Multimodal self-instruct utilizes LLMs and their code capabilities to **synthesize massive abstract images and visual reasoning instructions** across daily scenarios such as charts, graphs, visual puzzles, etc.
