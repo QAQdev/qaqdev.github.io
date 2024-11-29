@@ -21,13 +21,13 @@ redirect_from:
 
 <center id='pin'><span style="color: gray; font-family: monospace;">May oneko <img src="images/android-chrome-512x512.png" style="width: 21px;height: auto;display: inline-block;vertical-align: top"> lead you to my latest work!</span></center>
 
-Hello! I am **Zhenglin Cheng**, an incoming Ph.D. student of <img src="images/lab-logo.png" style="width: 19px;height: auto;display: inline-block;vertical-align: middle"> [LINs lab, Westlake University](https://lins-lab.github.io) (through joint program with ZJU), advised by [Prof. Tao LIN](https://tlin-taolin.github.io/). Before that, I received my bachelor's degree in Software Engineering from <img src="images/zju-logo.png" style="width: 20px;height: auto;display: inline-block;vertical-align: middle">  [Zhejiang University](http://www.zju.edu.cn/english/) (ZJU).
+Hello! I am **Zhenglin Cheng**, a Ph.D. student of <img src="images/lab-logo.png" style="width: 19px;height: auto;display: inline-block;vertical-align: middle"> [LINs lab, Westlake University](https://lins-lab.github.io) (through joint program with ZJU), advised by [Prof. Tao LIN](https://tlin-taolin.github.io/). Before that, I received my bachelor's degree in Software Engineering from <img src="images/zju-logo.png" style="width: 20px;height: auto;display: inline-block;vertical-align: middle">  [Zhejiang University](http://www.zju.edu.cn/english/) (ZJU).
 
 I love to write and post [something](https://qaqdev.github.io/notes) (from technical notes to life stuff). I also practice Chinese traditional calligraphy to relax occasionally.
 
 # Research Interests
 
-My research interests are generally within the scope of **efficiency and effectiveness of AI systems (such as large language models)**, specifically in <u>model architectural optimization</u>, <u>training accelerating techniques</u>, and <u>efficient inference paradigms</u>. Actively exploring! 🙌
+My research interests are generally within the scope of **efficiency and effectiveness of AI systems (such as large language models, diffusion models)**, specifically in <u>model architectural optimization</u>, <u>training accelerating techniques</u>, and <u>efficient inference paradigms</u>. Actively exploring! 🙌
 
 <!-- <div style="width: 50%; height: 300px; display: center; justify-content: center; align-items: center;">
   <img src="images/scope.jpg" alt="scope" style="max-width: 100%; height: auto;">
@@ -63,7 +63,7 @@ My research interests are generally within the scope of **efficiency and effecti
 
 <!-- Zhenglin (listed as second co-first author) did ALL preliminary exploration, wrote ALL the code (pipeline and evaluation), did ALL model training, ALL experiments, 90% and more datasets generation and formatting while the first co-first author DID NONE OF THE ABOVE. -->
 
-*Wenqi Zhang\*, **Zhenglin Cheng\***, Yuanyu He, Mengna Wang, Yongliang Shen, Zeqi Tan, Guiyang Hou, Mingqian He, Yanna Ma, Weiming Lu, Yueting Zhuang*
+*Wenqi Zhang\*, **Zhenglin Cheng\***, Yuanyu He, Mengna Wang, ... , Weiming Lu, Yueting Zhuang*
 
 <a href="https://multi-modal-self-instruct.github.io/" style="text-decoration: none; color: inherit; background-color: transparent;">
   <img alt="Project" src="https://img.shields.io/badge/🌐 Project-blue" style="transition: none; box-shadow: none;" />
@@ -90,10 +90,9 @@ My research interests are generally within the scope of **efficiency and effecti
 - 2024/06: 🔮 Successfully defended my [undergraduate thesis](https://arxiv.org/abs/2407.07053), ready to graduate.
 
 # Educations
+- *2024/09 - 2029/06*, Westlake University, College of Engineering.
 - *2020/09 - 2024/06*, Zhejiang University, College of Computer Science and Technology.
 
 <hr>
-
-<script type="text/javascript" src="//rf.revolvermaps.com/0/0/6.js?i=5fuz11wg2dh&m=7&c=e63100&cr1=ffffff&f=arial&l=0&bv=90&lx=-420&ly=420&hi=20&he=7&hc=a8ddff&rs=80" async="async"></script>
 
 <script type="text/javascript" src="assets/js/oneko.js"></script>
