@@ -35,6 +35,8 @@ My research interests are generally within the scope of **efficiency and effecti
 
 # Publications/Manuscripts <span style="color: gray; font-size: 13px; font-family: monospace;">(* denotes equal contribution)</span>
 
+## LLM with MoE
+
 <!-- DynMoE -->
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv'24</div><img src='images/adaptive.jpg' alt="sym" width="100%"></div></div>
@@ -54,6 +56,31 @@ My research interests are generally within the scope of **efficiency and effecti
 👉 DynMoE **frees the burden of pivotal hyper-parameter selection for MoE training** by enabling each token to activate different number of experts, and adjusting the number of experts automatically during training.
 </div>
 </div>
+
+## Diffusion Series
+
+<!-- GMem -->
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv'24</div><img src='images/gmem.jpg' alt="sym" width="100%"></div></div>
+<div id="dynmoe" class='paper-box-text' markdown="1">
+
+[📖 Generative Modeling with Explicit Memory](https://arxiv.org/abs/2412.08781)
+
+Yi Tang, Peng Sun, **Zhenglin Cheng**, Tao Lin
+
+<a href="https://github.com/LINs-lab/GMem" style="text-decoration: none; color: inherit; background-color: transparent;">
+  <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/LINs-lab/GMem?logo=github&label=LINs-lab%2FGMem" style="transition: none; box-shadow: none;" />
+</a> <a href="https://huggingface.co/Tangentone/GMem" style="text-decoration: none; color: inherit; background-color: transparent;">
+  <img alt="HF Checkpoints" src="https://img.shields.io/badge/%F0%9F%A4%97-HF_Checkpoints-yellow
+  " style="transition: none; box-shadow: none;" />
+</a>
+
+👉 GMem decouples diffusion modeling by **network for generalizatio**n and external **memory bank for memorization**.
+
+</div>
+</div>
+
+## Multimodal Data Engineering
 
 <!-- Mutimodal Self Instruct -->
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">EMNLP'24 (Main)</div><img src='images/MSI.png' alt="sym" width="100%"></div></div>
@@ -76,9 +103,7 @@ My research interests are generally within the scope of **efficiency and effecti
   <img alt="HF Datasets" src="https://img.shields.io/badge/-WeChat@%E6%96%B0%E6%99%BA%E5%85%83-FFFFF0?logo=wechat&logoColor=07C160" style="transition: none; box-shadow: none;" />
 </a>
 
-<!-- <a href="https://huggingface.co/datasets/zwq2018/Multi-modal-Self-instruct" style="text-decoration: none; color: inherit; background-color: transparent;">
-<img alt="HF Datasets" src="https://img.shields.io/badge/%F0%9F%A4%97-HF_Datasets-yellow" style="transition: none; box-shadow: none;" /> <a><img src="https://img.shields.io/badge/🏆 - Oral Presentation -b31b1b" style="transition: none; box-shadow: none;" /></a> -->
-
+<!-- <a><img src="https://img.shields.io/badge/🏆 - Oral-b31b1b" style="transition: none; box-shadow: none;" /></a> -->
 
 👉 Multimodal self-instruct utilizes LLMs and their code capabilities to **synthesize massive abstract images and visual reasoning instructions** across daily scenarios such as charts, graphs, visual puzzles, etc.
 </div>
