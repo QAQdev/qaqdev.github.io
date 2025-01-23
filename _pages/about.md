@@ -39,10 +39,10 @@ My research interests are generally within the scope of **efficiency and effecti
 
 <!-- DynMoE -->
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv'24</div><img src='images/adaptive.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR'25</div><img src='images/adaptive.jpg' alt="sym" width="100%"></div></div>
 <div id="dynmoe" class='paper-box-text' markdown="1">
 
-[📖 Dynamic Mixture of Experts: An Auto-Tuning Approach for Efficient Transformer Models](https://arxiv.org/abs/2405.14297)
+[📖 Dynamic Mixture of Experts: An Auto-Tuning Approach for Efficient Transformer Models](https://openreview.net/forum?id=T26f9z2rEe)
 
 *Yongxin Guo\*, **Zhenglin Cheng\***, Xiaoying Tang, Zhaopeng Tu, Tao Lin*
 
