@@ -35,7 +35,7 @@ My research interests are generally within the scope of **efficiency and effecti
 
 # Publications/Manuscripts <span style="color: gray; font-size: 13px; font-family: monospace;">(* denotes equal contribution)</span>
 
-## LLM with MoE
+<!-- ## LLM with MoE -->
 
 <!-- DynMoE -->
 
@@ -53,20 +53,20 @@ My research interests are generally within the scope of **efficiency and effecti
   " style="transition: none; box-shadow: none;" />
 </a>
 
-👉 DynMoE **frees the burden of pivotal hyper-parameter selection for MoE training** by enabling each token to activate different number of experts, and adjusting the number of experts automatically during training.
+👉 DynMoE **frees the burden of pivotal hyper-parameter selection for MoE training** by enabling each token to activate different number of experts, and adjusting the number of experts automatically, acheiving stronger sparsity well maintaining performance.
 </div>
 </div>
 
-## Diffusion Series
+<!-- ## Efficient Diffusion -->
 
 <!-- GMem -->
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv'24</div><img src='images/gmem.jpg' alt="sym" width="100%"></div></div>
 <div id="dynmoe" class='paper-box-text' markdown="1">
 
-[📖 Generative Modeling with Explicit Memory](https://arxiv.org/abs/2412.08781)
+[📖 GMem: A Modular Approach for Ultra-Efficient Generative Models](https://arxiv.org/abs/2412.08781)
 
-Yi Tang, Peng Sun, **Zhenglin Cheng**, Tao Lin
+*Yi Tang\*, Peng Sun\*, **Zhenglin Cheng\***, Tao Lin*
 
 <a href="https://github.com/LINs-lab/GMem" style="text-decoration: none; color: inherit; background-color: transparent;">
   <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/LINs-lab/GMem?logo=github&label=LINs-lab%2FGMem" style="transition: none; box-shadow: none;" />
@@ -75,12 +75,12 @@ Yi Tang, Peng Sun, **Zhenglin Cheng**, Tao Lin
   " style="transition: none; box-shadow: none;" />
 </a>
 
-👉 GMem decouples diffusion modeling by **network for generalizatio**n and external **memory bank for memorization**.
+👉 GMem decouples diffusion modeling by **network for generalizatio**n and external **memory bank for memorization**, achieving **50×** training speedup compared to SiT, **25×** speed up to REPA.
 
 </div>
 </div>
 
-## Multimodal Data Engineering
+<!-- ## Multimodal Data Engineering -->
 
 <!-- Mutimodal Self Instruct -->
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">EMNLP'24 (Main)</div><img src='images/MSI.png' alt="sym" width="100%"></div></div>
@@ -110,9 +110,10 @@ Yi Tang, Peng Sun, **Zhenglin Cheng**, Tao Lin
 </div>
 
 # News
-- 2024/09: 🥳 [Mutimodal Self-Instruct](https://arxiv.org/abs/2407.07053) is accepted by EMNLP'24 (Main) as **Oral**!
-- 2024/07: 👏 Excited to intern at Baichuan AI on multimodal LLM pretraining.
-- 2024/06: 🔮 Successfully defended my [undergraduate thesis](https://arxiv.org/abs/2407.07053), ready to graduate.
+- 2025/01: 🥳 [Dynamic Mixture of Experts (DynMoE)](https://openreview.net/forum?id=T26f9z2rEe) is accepted to ICLR'25, See you in Singapore🇸🇬 !
+<!-- - 2024/09: 🥳 [Mutimodal Self-Instruct](https://arxiv.org/abs/2407.07053) is accepted to EMNLP'24 (Main) as **Oral**! -->
+<!-- - 2024/07: 👏 Excited to intern at Baichuan AI on multimodal LLM pretraining. -->
+<!-- - 2024/06: 🔮 Successfully defended my [undergraduate thesis](https://arxiv.org/abs/2407.07053), ready to graduate. -->
 
 # Educations
 - *2024/09 - 2029/06*, Westlake University, College of Engineering.
