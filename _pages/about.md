@@ -21,13 +21,18 @@ redirect_from:
 
 <center id='pin'><span style="color: gray; font-family: monospace;">May oneko <img src="images/android-chrome-512x512.png" style="width: 21px;height: auto;display: inline-block;vertical-align: top"> lead you to my latest work!</span></center>
 
-Hello! I am **Zhenglin Cheng**, a Ph.D. student of <img src="images/lab-logo.png" style="width: 19px;height: auto;display: inline-block;vertical-align: middle"> [LINs lab, Westlake University](https://lins-lab.github.io) (through joint program with ZJU), advised by [Prof. Tao LIN](https://tlin-taolin.github.io/). Before that, I received my bachelor's degree in Software Engineering from <img src="images/zju-logo.png" style="width: 20px;height: auto;display: inline-block;vertical-align: middle">  [Zhejiang University](http://www.zju.edu.cn/english/) (ZJU).
+Hello! I am **Zhenglin Cheng**, a Ph.D. student of <img src="images/lab-logo.png" style="width: 19px;height: auto;display: inline-block;vertical-align: middle"> [LINs lab, Westlake University](https://lins-lab.github.io) (through joint program with ZJU), advised by [Prof. Tao LIN](https://tlin-taolin.github.io/). I am also honored to be affiliated with <img src="images/sii-logo.png" style="width: 21px;height: auto;display: inline-block;vertical-align: middle"> Shanghai Innovation Institute (SII), a new force in the GenAI era. Before that, I received my bachelor's degree in Software Engineering from Zhejiang University (ZJU).
 
 I love to write and post [something](https://qaqdev.github.io/notes) (from technical notes to life stuff). I also practice Chinese traditional calligraphy to relax occasionally.
 
 # Research Interests
 
-My research interests are generally within the scope of **efficiency and effectiveness of AI systems (such as large language models, diffusion models)**, specifically in <u>model architectural optimization</u>, <u>training accelerating techniques</u>, and <u>efficient inference paradigms</u>. Actively exploring! 🙌
+My long-term research goal is to build multimodal models and agents that can **<u>understand</u>** the physical world, **<u>reason</u>** on any-type problems, and **<u>create</u>** novel cotents, which could also learn from experience and evolve themselves in the constantly changing environment.
+
+Looking at the present, I put my focus on:
+- **Unified multimodal autoregressive models** such as Emu-3, VILA-U, Transfusion, Janus-series, etc.
+  - Open question for autoregressive, diffusion or mysterious latecomer. 🤔
+- **LLM reasoning in the deep thinking era**, such as ChatGPT o-series and Deepseek-R1.
 
 <!-- <div style="width: 50%; height: 300px; display: center; justify-content: center; align-items: center;">
   <img src="images/scope.jpg" alt="scope" style="max-width: 100%; height: auto;">
@@ -110,7 +115,7 @@ My research interests are generally within the scope of **efficiency and effecti
 </div>
 
 # News
-- 2025/01: 🥳 [Dynamic Mixture of Experts (DynMoE)](https://openreview.net/forum?id=T26f9z2rEe) is accepted to ICLR'25, See you in Singapore🇸🇬 !
+- 2025/01: 🥳 [Dynamic Mixture of Experts (DynMoE)](https://openreview.net/forum?id=T26f9z2rEe) is accepted to ICLR'25, see you in Singapore 🇸🇬 !
 <!-- - 2024/09: 🥳 [Mutimodal Self-Instruct](https://arxiv.org/abs/2407.07053) is accepted to EMNLP'24 (Main) as **Oral**! -->
 <!-- - 2024/07: 👏 Excited to intern at Baichuan AI on multimodal LLM pretraining. -->
 <!-- - 2024/06: 🔮 Successfully defended my [undergraduate thesis](https://arxiv.org/abs/2407.07053), ready to graduate. -->
