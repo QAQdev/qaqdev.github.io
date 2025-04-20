@@ -30,8 +30,8 @@ I love to write and post [something](https://qaqdev.github.io/notes) (from techn
 My long-term research goal is to build multimodal models and agents that can **<u>understand</u>** the physical world, **<u>reason</u>** on any-type problems, and **<u>create</u>** novel cotents, which could also learn from experience and evolve themselves in the constantly changing environment.
 
 Looking at the present, I put my focus on:
+
 - **Unified multimodal autoregressive models** such as Emu-3, VILA-U, Transfusion, Janus-series, etc.
-  - Open question for autoregressive, diffusion or mysterious latecomer. 🤔
 - **LLM reasoning in the deep thinking era**, such as ChatGPT o-series and Deepseek-R1.
 
 <!-- <div style="width: 50%; height: 300px; display: center; justify-content: center; align-items: center;">
