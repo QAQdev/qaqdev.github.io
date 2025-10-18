@@ -21,18 +21,25 @@ redirect_from:
 
 <center id='pin'><span style="color: gray; font-family: monospace;">May oneko <img src="images/android-chrome-512x512.png" style="width: 21px;height: auto;display: inline-block;vertical-align: top"> lead you to my latest work!</span></center>
 
-Hello! I am **Zhenglin Cheng**, a Ph.D. student of <img src="images/lab-logo.png" style="width: 19px;height: auto;display: inline-block;vertical-align: middle"> [LINs lab, Westlake University](https://lins-lab.github.io) (through joint program with ZJU), advised by [Prof. Tao LIN](https://tlin-taolin.github.io/). I am also honored to be affiliated with <img src="images/sii-logo.png" style="width: 21px;height: auto;display: inline-block;vertical-align: middle"> Shanghai Innovation Institute (SII), a new force in the GenAI era. Before that, I received my bachelor's degree in Software Engineering from Zhejiang University (ZJU).
+Hello! I am **Zhenglin Cheng**, a second-year Ph.D. student of <img src="images/lab-logo.png" style="width: 19px;height: auto;display: inline-block;vertical-align: middle"> [LINs lab, Westlake University](https://lins-lab.github.io) (through joint program with ZJU), advised by [Prof. Tao LIN](https://tlin-taolin.github.io/). I am also honored to be affiliated with <img src="images/sii-logo.png" style="width: 21px;height: auto;display: inline-block;vertical-align: middle"> Shanghai Innovation Institute (SII), a new force in the GenAI era. Before that, I received my bachelor's degree in Software Engineering from Zhejiang University (ZJU).
 
 I love to write and post [something](https://qaqdev.github.io/notes) (from technical notes to life stuff). I also practice Chinese traditional calligraphy to relax occasionally.
 
+# News
+- *2025/01*, 🥳 [Dynamic Mixture of Experts (DynMoE)](https://openreview.net/forum?id=T26f9z2rEe) is accepted to ICLR'25, see you in Singapore 🇸🇬 !
+<!-- - 2024/09: 🥳 [Mutimodal Self-Instruct](https://arxiv.org/abs/2407.07053) is accepted to EMNLP'24 (Main) as **Oral**! -->
+<!-- - 2024/07: 👏 Excited to intern at Baichuan AI on multimodal LLM pretraining. -->
+<!-- - 2024/06: 🔮 Successfully defended my [undergraduate thesis](https://arxiv.org/abs/2407.07053), ready to graduate. -->
+
 # Research Interests
 
-My long-term research goal is to build multimodal models and agents that can **<u>understand</u>** the physical world, **<u>reason</u>** on any-type problems, and **<u>create</u>** novel cotents, which could also learn from experience and evolve themselves in the constantly changing environment.
+My long-term research goal is to build efficient multimodal agents that can **<u>understand</u>** the physical world, **<u>reason</u>** on real-world problems, and **<u>generate</u>** novel ideas, which could also learn from experience and evolve themselves in the constantly changing environment.
 
 Looking at the present, I put my focus on:
 
-- **Unified multimodal autoregressive models** such as Emu-3, VILA-U, Transfusion, Janus-series, etc.
-- **LLM reasoning in the deep thinking era**, such as ChatGPT o-series and Deepseek-R1.
+- **Unified multimodal models**: how to effectively and efficiently combine diffusion and autoregressive paradigm?
+- **Few-step generation**: how can we effectively train/distill continuous diffusion generators into 1-NFE ones—and can the same be done for dLLMs?
+<!-- - **LLM reasoning in the deep thinking era**, such as ChatGPT o-series and Deepseek-R1. -->
 
 <!-- <div style="width: 50%; height: 300px; display: center; justify-content: center; align-items: center;">
   <img src="images/scope.jpg" alt="scope" style="max-width: 100%; height: auto;">
@@ -95,7 +102,7 @@ Looking at the present, I put my focus on:
 
 <!-- Zhenglin (listed as second co-first author) did ALL preliminary exploration, wrote ALL the code (pipeline and evaluation), did ALL model training, ALL experiments, 90% and more datasets generation and formatting while the first co-first author DID NONE OF THE ABOVE. -->
 
-*Wenqi Zhang\*, **Zhenglin Cheng\***, Yuanyu He, Mengna Wang, ... , Weiming Lu, Yueting Zhuang*
+*Wenqi Zhang\*, **Zhenglin Cheng\***, Yuanyu He, ... , Weiming Lu, Yueting Zhuang*
 
 <a href="https://multi-modal-self-instruct.github.io/" style="text-decoration: none; color: inherit; background-color: transparent;">
   <img alt="Project" src="https://img.shields.io/badge/🌐 Project-blue" style="transition: none; box-shadow: none;" />
@@ -114,11 +121,11 @@ Looking at the present, I put my focus on:
 </div>
 </div>
 
-# News
-- 2025/01: 🥳 [Dynamic Mixture of Experts (DynMoE)](https://openreview.net/forum?id=T26f9z2rEe) is accepted to ICLR'25, see you in Singapore 🇸🇬 !
-<!-- - 2024/09: 🥳 [Mutimodal Self-Instruct](https://arxiv.org/abs/2407.07053) is accepted to EMNLP'24 (Main) as **Oral**! -->
-<!-- - 2024/07: 👏 Excited to intern at Baichuan AI on multimodal LLM pretraining. -->
-<!-- - 2024/06: 🔮 Successfully defended my [undergraduate thesis](https://arxiv.org/abs/2407.07053), ready to graduate. -->
+# Experiences
+- *2025/07 - Present*, [Ant Research](https://www.antresearch.com/) (Advisor: Dr. [Jianguo Li](https://sites.google.com/site/leeplus/)).
+
+# Academic Services
+- Conference Reviewer: ICLR.
 
 # Educations
 - *2024/09 - 2029/06*, Westlake University, College of Engineering.
