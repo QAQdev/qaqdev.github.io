@@ -161,4 +161,4 @@ Looking at the present, I put my focus on:
 
 <hr>
 
-<script type="text/javascript" src="assets/js/oneko.js"></script>
+<script type="text/javascript" src="assets/js/oneko.js?v=2023121501"></script>
