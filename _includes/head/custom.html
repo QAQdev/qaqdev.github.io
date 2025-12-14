@@ -20,4 +20,57 @@
 </script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/latest.js?config=TeX-MML-AM_CHTML' async></script>
 
+<!-- Slideshow CSS -->
+<style>
+  /* 轮播容器 */
+  .slideshow-container {
+    position: relative;
+    width: 100%;
+    display: block;
+  }
+
+  /* 图片基础样式 */
+  .slideshow-container img {
+    width: 100%;
+    display: block;
+  }
+
+  /* 关键修复：
+     1. 强制显示第一张图片，禁止动画，确保加载瞬间即可见，无延迟。
+     2. 强制隐藏其他图片。
+  */
+  .slideshow-container img:first-child {
+    display: block !important;
+    opacity: 1 !important;
+    animation: none !important; /* 防止首图加载时出现淡入效果 */
+  }
+
+  .slideshow-container img:not(:first-of-type) {
+    display: none;
+  }
+
+  /* 切换时的淡入动画 */
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+
+  @keyframes fade {
+    from {opacity: 0.4} 
+    to {opacity: 1}
+  }
+
+  /* Badge 徽标定位修复：改为左上角 */
+  .slideshow-container .badge {
+    z-index: 10;
+    position: absolute;
+    top: 10px;
+    left: 10px;  /* 从 right 改为 left */
+    right: auto;
+  }
+</style>
+
+<!-- Slideshow Script -->
+<script src="{{ '/assets/js/slideshow.js' | relative_url }}" defer></script>
+
 <!-- end custom head snippets -->

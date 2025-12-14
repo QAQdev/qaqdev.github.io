@@ -26,6 +26,7 @@ Hello! I am **Zhenglin Cheng**, a second-year Ph.D. student of <img src="images/
 I love to write and post [something](https://qaqdev.github.io/notes) (from technical notes to life stuff). I also practice Chinese traditional calligraphy to relax occasionally.
 
 # News
+- *2025/12*, 🚀 We release [TwinFlow](https://www.arxiv.org/abs/2512.05150), a simple and effective framework for **one-step generation!**
 - *2025/01*, 🥳 [Dynamic Mixture of Experts (DynMoE)](https://openreview.net/forum?id=T26f9z2rEe) is accepted to ICLR'25, see you in Singapore 🇸🇬 !
 <!-- - 2024/09: 🥳 [Mutimodal Self-Instruct](https://arxiv.org/abs/2407.07053) is accepted to EMNLP'24 (Main) as **Oral**! -->
 <!-- - 2024/07: 👏 Excited to intern at Baichuan AI on multimodal LLM pretraining. -->
@@ -47,11 +48,39 @@ Looking at the present, I put my focus on:
 
 # Publications/Manuscripts <span style="color: gray; font-size: 13px; font-family: monospace;">(* denotes equal contribution)</span>
 
+<div class='paper-box'>
+  <div class='paper-box-image'>
+    <div class="slideshow-container">
+      <div class="badge">arXiv'25</div>
+      <img src='images/twinflow.png' alt="sym" width="100%">
+      <img src='images/twinflow_qwen.jpg' alt="sym2" width="100%">
+    </div>
+  </div>
+<div id="twinflow" class='paper-box-text' markdown="1">
+
+[📖 TwinFlow: Realizing One-step Generation on Large Models with Self-adversarial Flows](https://www.arxiv.org/abs/2512.05150)
+
+***Zhenglin Cheng**\*, Peng Sun\*, Jianguo Li, Tao Lin*
+
+<a href="https://zhenglin-cheng.com/twinflow" style="text-decoration: none; color: inherit; background-color: transparent;">
+  <img alt="Project Page" src="https://img.shields.io/badge/Project%20Page-133399.svg?logo=homepage" style="transition: none; box-shadow: none;" />
+</a> <a href="https://github.com/inclusionAI/TwinFlow" style="text-decoration: none; color: inherit; background-color: transparent;">
+  <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/inclusionAI/TwinFlow?logo=github&label=inclusionAI%2FTwinFlow" style="transition: none; box-shadow: none;" />
+</a> <a href="https://huggingface.co/inclusionAI/TwinFlow" style="text-decoration: none; color: inherit; background-color: transparent;">
+  <img alt="HF Checkpoints" src="https://img.shields.io/badge/%F0%9F%A4%97-HF_Checkpoints-yellow
+  " style="transition: none; box-shadow: none;" />
+</a>
+
+👉 TwinFlow tames **large-scale few-step training** through self-adversarial flows, **eliminating the need for any auxiliary networks (discriminators, teachers, fake scores) by one-model design.** This scalable approach transforms **Qwen-Image-20B** into a high-quality few-step generator.
+</div>
+</div>
+
 <!-- ## LLM with MoE -->
 
 <!-- DynMoE -->
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR'25</div><img src='images/adaptive.jpg' alt="sym" width="100%"></div></div>
+
 <div id="dynmoe" class='paper-box-text' markdown="1">
 
 [📖 Dynamic Mixture of Experts: An Auto-Tuning Approach for Efficient Transformer Models](https://openreview.net/forum?id=T26f9z2rEe)
@@ -95,14 +124,15 @@ Looking at the present, I put my focus on:
 <!-- ## Multimodal Data Engineering -->
 
 <!-- Mutimodal Self Instruct -->
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">EMNLP'24 (Main)</div><img src='images/MSI.png' alt="sym" width="100%"></div></div>
+
+<!-- <div class='paper-box'><div class='paper-box-image'><div><div class="badge">EMNLP'24 (Main)</div><img src='images/MSI.png' alt="sym" width="100%"></div></div>
 <div id="msi" class='paper-box-text' markdown="1">
 
-[📖 Multimodal Self-Instruct: Synthetic Abstract Image and Visual Reasoning Instruction Using Language Model](https://arxiv.org/abs/2407.07053) (inherited from my undergrad thesis)
+[📖 Multimodal Self-Instruct: Synthetic Abstract Image and Visual Reasoning Instruction Using Language Model](https://arxiv.org/abs/2407.07053) (inherited from my undergrad thesis) -->
 
 <!-- Zhenglin (listed as second co-first author) did ALL preliminary exploration, wrote ALL the code (pipeline and evaluation), did ALL model training, ALL experiments, 90% and more datasets generation and formatting while the first co-first author DID NONE OF THE ABOVE. -->
 
-*Wenqi Zhang\*, **Zhenglin Cheng\***, Yuanyu He, ... , Weiming Lu, Yueting Zhuang*
+<!-- *Wenqi Zhang\*, **Zhenglin Cheng\***, Yuanyu He, ... , Weiming Lu, Yueting Zhuang*
 
 <a href="https://multi-modal-self-instruct.github.io/" style="text-decoration: none; color: inherit; background-color: transparent;">
   <img alt="Project" src="https://img.shields.io/badge/🌐 Project-blue" style="transition: none; box-shadow: none;" />
@@ -115,14 +145,12 @@ Looking at the present, I put my focus on:
   <img alt="HF Datasets" src="https://img.shields.io/badge/-WeChat@%E6%96%B0%E6%99%BA%E5%85%83-FFFFF0?logo=wechat&logoColor=07C160" style="transition: none; box-shadow: none;" />
 </a>
 
-<!-- <a><img src="https://img.shields.io/badge/🏆 - Oral-b31b1b" style="transition: none; box-shadow: none;" /></a> -->
-
 👉 Multimodal self-instruct utilizes LLMs and their code capabilities to **synthesize massive abstract images and visual reasoning instructions** across daily scenarios such as charts, graphs, visual puzzles, etc.
 </div>
-</div>
+</div> -->
 
 # Experiences
-- *2025/07 - Present*, [Ant Research](https://www.antresearch.com/) (Advisor: Dr. [Jianguo Li](https://sites.google.com/site/leeplus/)).
+- *2025/07 - Present*, [Ant Research](https://www.antresearch.com/) (Tech Leader: Dr. [Jianguo Li](https://sites.google.com/site/leeplus/)).
 
 # Academic Services
 - Conference Reviewer: ICLR.
