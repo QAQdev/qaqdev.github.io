@@ -23,7 +23,9 @@ redirect_from:
 
 Hello! I am **Zhenglin Cheng**, a second-year Ph.D. student of <img src="images/lab-logo.png" style="width: 19px;height: auto;display: inline-block;vertical-align: middle"> [LINs lab, Westlake University](https://lins-lab.github.io) (through joint program with ZJU), advised by [Prof. Tao LIN](https://tlin-taolin.github.io/). I am also honored to be affiliated with <img src="images/sii-logo.png" style="width: 21px;height: auto;display: inline-block;vertical-align: middle"> Shanghai Innovation Institute (SII), a new force in the GenAI era. Before that, I received my bachelor's degree in Software Engineering from Zhejiang University (ZJU).
 
-I love to write and post [something](https://qaqdev.github.io/notes) (from technical notes to life stuff). I also practice Chinese traditional calligraphy to relax occasionally.
+<!-- I love to write and post [something](https://qaqdev.github.io/notes) (from technical notes to life stuff). I also practice Chinese traditional calligraphy to relax occasionally. -->
+
+Find my CV [here (Jan 2026 Update)](images/Zhenglin_Cheng_CV.pdf).
 
 # News
 - *2025/12*, 🚀 We release [TwinFlow](https://www.arxiv.org/abs/2512.05150), a simple and effective framework for **one-step generation!**
