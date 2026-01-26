@@ -28,6 +28,7 @@ Hello! I am **Zhenglin Cheng**, a second-year Ph.D. student of <img src="images/
 Find my CV [here (Jan 2026 Update)](images/Zhenglin_Cheng_CV.pdf).
 
 # News
+- *2026/01*, 🥳 [TwinFlow](https://www.arxiv.org/abs/2512.05150) is accepted to ICLR'26, see you in Rio de Janeiro, Brazil 🇧🇷 !
 - *2025/12*, 🚀 We release [TwinFlow](https://www.arxiv.org/abs/2512.05150), a simple and effective framework for **one-step generation!**
 - *2025/01*, 🥳 [Dynamic Mixture of Experts (DynMoE)](https://openreview.net/forum?id=T26f9z2rEe) is accepted to ICLR'25, see you in Singapore 🇸🇬 !
 <!-- - 2024/09: 🥳 [Mutimodal Self-Instruct](https://arxiv.org/abs/2407.07053) is accepted to EMNLP'24 (Main) as **Oral**! -->
@@ -53,7 +54,7 @@ Looking at the present, I put my focus on:
 <div class='paper-box'>
   <div class='paper-box-image'>
     <div class="slideshow-container">
-      <div class="badge">arXiv'25</div>
+      <div class="badge">ICLR'26</div>
       <img src='images/twinflow.png' alt="sym" width="100%">
       <img src='images/twinflow_qwen.jpg' alt="sym2" width="100%">
     </div>
