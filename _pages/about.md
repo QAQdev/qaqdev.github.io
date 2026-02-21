@@ -21,11 +21,13 @@ redirect_from:
 
 <center id='pin'><span style="color: gray; font-family: monospace;">May oneko <img src="images/android-chrome-512x512.png" style="width: 21px;height: auto;display: inline-block;vertical-align: top"> lead you to my latest work!</span></center>
 
-Hello! I am **Zhenglin Cheng**, a second-year Ph.D. student of <img src="images/lab-logo.png" style="width: 19px;height: auto;display: inline-block;vertical-align: middle"> [LINs lab, Westlake University](https://lins-lab.github.io) (through joint program with ZJU), advised by [Prof. Tao LIN](https://tlin-taolin.github.io/). I am also honored to be affiliated with <img src="images/sii-logo.png" style="width: 21px;height: auto;display: inline-block;vertical-align: middle"> Shanghai Innovation Institute (SII), a new force in the GenAI era. Before that, I received my bachelor's degree in Software Engineering from Zhejiang University (ZJU).
+Hello! I am **Zhenglin Cheng**, a second-year Ph.D. student of <img src="images/lab-logo.png" style="width: 19px;height: auto;display: inline-block;vertical-align: middle"> [LINs lab, Westlake University](https://lins-lab.github.io) (through joint program with ZJU), advised by [Prof. Tao LIN](https://tlin-taolin.github.io/).
+<!-- I am also honored to be affiliated with <img src="images/sii-logo.png" style="width: 21px;height: auto;display: inline-block;vertical-align: middle"> Shanghai Innovation Institute (SII), a new force in the GenAI era. -->
+Before that, I received my bachelor's degree in Software Engineering from Zhejiang University (ZJU).
 
 <!-- I love to write and post [something](https://qaqdev.github.io/notes) (from technical notes to life stuff). I also practice Chinese traditional calligraphy to relax occasionally. -->
 
-Find my CV [here (Jan 2026 Update)](images/Zhenglin_Cheng_CV.pdf).
+📄 Find my CV [here (Jan 2026 Update)](images/Zhenglin_Cheng_CV.pdf).
 
 # News
 - *2026/01*, 🥳 [TwinFlow](https://www.arxiv.org/abs/2512.05150) is accepted to ICLR'26, see you in Rio de Janeiro, Brazil 🇧🇷 !
@@ -105,7 +107,7 @@ Looking at the present, I put my focus on:
 
 <!-- GMem -->
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv'24</div><img src='images/gmem.jpg' alt="sym" width="100%"></div></div>
+<!-- <div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv'24</div><img src='images/gmem.jpg' alt="sym" width="100%"></div></div>
 <div id="dynmoe" class='paper-box-text' markdown="1">
 
 [📖 GMem: A Modular Approach for Ultra-Efficient Generative Models](https://arxiv.org/abs/2412.08781)
@@ -122,7 +124,7 @@ Looking at the present, I put my focus on:
 👉 GMem decouples diffusion modeling by **network for generalizatio**n and external **memory bank for memorization**, achieving **50×** training speedup compared to SiT, **25×** speed up to REPA.
 
 </div>
-</div>
+</div> -->
 
 <!-- ## Multimodal Data Engineering -->
 
@@ -156,7 +158,7 @@ Looking at the present, I put my focus on:
 - *2025/07 - Present*, [Ant Research](https://www.antresearch.com/) (Tech Leader: Dr. [Jianguo Li](https://sites.google.com/site/leeplus/)).
 
 # Academic Services
-- Conference Reviewer: ICLR.
+- Conference Reviewer: ICLR, ICML.
 
 # Educations
 - *2024/09 - 2029/06*, Westlake University, College of Engineering.
