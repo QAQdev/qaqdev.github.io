@@ -63,10 +63,16 @@
   /* Badge 徽标定位修复：改为左上角 */
   .slideshow-container .badge {
     z-index: 10;
+    padding-left: 1rem;
+    padding-right: 1rem;
     position: absolute;
-    top: 10px;
-    left: 10px;  /* 从 right 改为 left */
-    right: auto;
+    margin-top: .5em;
+    margin-left: -.5em;
+    color: white;
+    background-image: linear-gradient(to top, #203f7a 0%, #20407c 1%, #2a5298 100%);
+    font-size: .8em;
+    border-radius: 2px;
+    font-family: monospace
   }
 </style>
 
