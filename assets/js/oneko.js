@@ -17,8 +17,8 @@
 
     // 获取目标元素的位置
     function updateTargetPosition() {
-        latest_work = "twinflow"
-        const targetElement = document.getElementById(latest_work);
+        const latestWork = "llada-image";
+        const targetElement = document.getElementById(latestWork);
         if (targetElement) {
             const rect = targetElement.getBoundingClientRect();
             mousePosX = rect.left + rect.width / 2;

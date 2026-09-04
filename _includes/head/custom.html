@@ -49,6 +49,31 @@
     display: none;
   }
 
+  /* Keep LLaDA-Image's portrait demo sheets fully visible. */
+  .paper-box .paper-box-image .llada-image-slideshow img {
+    width: 100%;
+    max-width: 300px;
+    max-height: none;
+    height: auto;
+    object-fit: contain;
+  }
+
+  .core-contributor {
+    display: inline-block;
+    width: 0.55em;
+    height: 0.55em;
+    margin: 0 0.16em 0 0.22em;
+    vertical-align: 0.12em;
+    color: #2a5298;
+    fill: currentColor;
+  }
+
+  .paper-box-text a[style*="background-color: transparent"] {
+    display: inline-block;
+    margin: 0 0.1rem 0.2em 0;
+    line-height: 0;
+  }
+
   /* 切换时的淡入动画 */
   .fade {
     animation-name: fade;

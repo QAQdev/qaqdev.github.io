@@ -21,7 +21,7 @@ redirect_from:
 
 <center id='pin'><span style="color: gray; font-family: monospace;">May oneko <img src="images/android-chrome-512x512.png" style="width: 21px;height: auto;display: inline-block;vertical-align: top"> lead you to my latest work!</span></center>
 
-Hello! I am **Zhenglin Cheng**, a second-year Ph.D. student of <img src="images/lab-logo.png" style="width: 19px;height: auto;display: inline-block;vertical-align: middle"> [LINs lab, Westlake University](https://lins-lab.github.io) (through joint program with ZJU), advised by [Prof. Tao LIN](https://tlin-taolin.github.io/).
+Hello! I am **Zhenglin Cheng**, a third-year Ph.D. student of <img src="images/lab-logo.png" style="width: 19px;height: auto;display: inline-block;vertical-align: middle"> [LINs lab, Westlake University](https://lins-lab.github.io) (through joint program with ZJU), advised by [Prof. Tao LIN](https://tlin-taolin.github.io/).
 <!-- I am also honored to be affiliated with <img src="images/sii-logo.png" style="width: 21px;height: auto;display: inline-block;vertical-align: middle"> Shanghai Innovation Institute (SII), a new force in the GenAI era. -->
 Before that, I received my bachelor's degree in Software Engineering from Zhejiang University (ZJU).
 
@@ -30,6 +30,7 @@ Before that, I received my bachelor's degree in Software Engineering from Zhejia
 📄 Find my CV [here (Jan 2026 Update)](images/Zhenglin_Cheng_CV.pdf).
 
 # News
+- *2026/09*, We released the [LLaDA-Image](https://github.com/inclusionAI/LLaDA-Image) Base and Turbo checkpoints, have fun!
 - *2026/01*, 🥳 [TwinFlow](https://www.arxiv.org/abs/2512.05150) is accepted to ICLR'26, see you in Rio de Janeiro, Brazil 🇧🇷 !
 - *2025/12*, 🚀 We release [TwinFlow](https://www.arxiv.org/abs/2512.05150), a simple and effective framework for **one-step generation!**
 - *2025/01*, 🥳 [Dynamic Mixture of Experts (DynMoE)](https://openreview.net/forum?id=T26f9z2rEe) is accepted to ICLR'25, see you in Singapore 🇸🇬 !
@@ -43,15 +44,46 @@ My long-term research goal is to build efficient multimodal agents that can **<u
 
 Looking at the present, I put my focus on:
 
-- **Unified multimodal models**: how to effectively and efficiently combine diffusion and autoregressive paradigm?
-- **Few-step generation**: how can we effectively train/distill continuous diffusion generators into 1-NFE ones—and can the same be done for dLLMs?
+- **Interactive video/world models**: how can we make video diffusion models strong and realtime interactive entrypoints for real-world users?
+<!-- - **Unified multimodal models**: how to effectively and efficiently combine diffusion and autoregressive paradigm? -->
+- **Few-step generation**: how can we effectively train/distill continuous diffusion generators into 1-step or few-step generators?
 <!-- - **LLM reasoning in the deep thinking era**, such as ChatGPT o-series and Deepseek-R1. -->
 
 <!-- <div style="width: 50%; height: 300px; display: center; justify-content: center; align-items: center;">
   <img src="images/scope.jpg" alt="scope" style="max-width: 100%; height: auto;">
 </div> -->
 
-# Publications/Manuscripts <span style="color: gray; font-size: 13px; font-family: monospace;">(* denotes equal contribution)</span>
+# Publications/Manuscripts <span style="color: gray; font-size: 13px; font-family: monospace;">(* denotes equal contribution; <svg class="core-contributor" aria-hidden="true" viewBox="0 0 16 16"><path d="M8 1 15 8 8 15 1 8Z"/></svg> denotes core contributors)</span>
+
+<div class='paper-box'>
+  <div class='paper-box-image'>
+    <div class="slideshow-container llada-image-slideshow">
+      <div class="badge">Technical Report</div>
+      <img src='images/llada-image-demo1.webp' alt="LLaDA-Image photorealistic generation showcase" width="100%">
+      <img src='images/llada-image-demo2.webp' alt="LLaDA-Image text rendering and poster generation showcase" width="100%">
+    </div>
+  </div>
+<div id="llada-image" class='paper-box-text' markdown="1">
+
+[📖 LLaDA-Image: Building Strong Image Generators with Fully Open Training Recipes](https://arxiv.org/abs/2609.03796)
+
+*Chuyan Chen, Haoxing Chen, Kun Chen, **Zhenglin Cheng**<svg class="core-contributor" role="img" aria-label="Core contributor" viewBox="0 0 16 16"><path d="M8 1 15 8 8 15 1 8Z"/></svg>, Long Cui, Ruishan Fang, Zhangxuan Gu, Zhicheng Huang, Zhenzhong Lan, Yuanting Lei, Haoquan Li, Jianguo Li, Rongchuan Li, Sidu Li, Tao Lin, Deyuan Liu, Jiacheng Liu<svg class="core-contributor" role="img" aria-label="Core contributor" viewBox="0 0 16 16"><path d="M8 1 15 8 8 15 1 8Z"/></svg>, Lin Liu, Yuxuan Lou, Zhisheng Lu, Yuxin Ma, Shuheng Shen, Peng Sun<svg class="core-contributor" role="img" aria-label="Core contributor" viewBox="0 0 16 16"><path d="M8 1 15 8 8 15 1 8Z"/></svg>, Chaoyang Wang, Hongjun Wang, Xiaomei Wang, Yongxin Wang, Chengzhang Wu, Hongru Wu, Jun Xie<svg class="core-contributor" role="img" aria-label="Core contributor" viewBox="0 0 16 16"><path d="M8 1 15 8 8 15 1 8Z"/></svg>*
+
+<a href="https://github.com/inclusionAI/LLaDA-Image" style="text-decoration: none; color: inherit; background-color: transparent;">
+  <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/inclusionAI/LLaDA-Image?logo=github&label=inclusionAI%2FLLaDA-Image" style="transition: none; box-shadow: none;" />
+</a> <a href="https://huggingface.co/inclusionAI/LLaDA-Image" style="text-decoration: none; color: inherit; background-color: transparent;">
+  <img alt="LLaDA-Image Base on Hugging Face" src="https://img.shields.io/badge/Hugging%20Face-Base-FFD21E?logo=huggingface" style="transition: none; box-shadow: none;" />
+</a> <a href="https://huggingface.co/inclusionAI/LLaDA-Image-FP8" style="text-decoration: none; color: inherit; background-color: transparent;">
+  <img alt="LLaDA-Image Base FP8 on Hugging Face" src="https://img.shields.io/badge/Hugging%20Face-Base--FP8-FFD21E?logo=huggingface" style="transition: none; box-shadow: none;" />
+</a> <a href="https://huggingface.co/inclusionAI/LLaDA-Image-Turbo" style="text-decoration: none; color: inherit; background-color: transparent;">
+  <img alt="LLaDA-Image Turbo on Hugging Face" src="https://img.shields.io/badge/Hugging%20Face-Turbo-FFD21E?logo=huggingface" style="transition: none; box-shadow: none;" />
+</a> <a href="https://huggingface.co/inclusionAI/LLaDA-Image-Turbo-FP8" style="text-decoration: none; color: inherit; background-color: transparent;">
+  <img alt="LLaDA-Image Turbo FP8 on Hugging Face" src="https://img.shields.io/badge/Hugging%20Face-Turbo--FP8-FFD21E?logo=huggingface" style="transition: none; box-shadow: none;" />
+</a>
+
+👉 LLaDA-Image is a **6B unified diffusion model family for high-quality image generation and editing**. It supports text-to-image and VQ-conditioned generation, instruction-guided editing, and Chinese–English text rendering; its Turbo variant enables fast generation and editing in only **2–4 sampling steps**.
+</div>
+</div>
 
 <div class='paper-box'>
   <div class='paper-box-image'>
@@ -72,8 +104,7 @@ Looking at the present, I put my focus on:
 </a> <a href="https://github.com/inclusionAI/TwinFlow" style="text-decoration: none; color: inherit; background-color: transparent;">
   <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/inclusionAI/TwinFlow?logo=github&label=inclusionAI%2FTwinFlow" style="transition: none; box-shadow: none;" />
 </a> <a href="https://huggingface.co/inclusionAI/TwinFlow" style="text-decoration: none; color: inherit; background-color: transparent;">
-  <img alt="HF Checkpoints" src="https://img.shields.io/badge/%F0%9F%A4%97-HF_Checkpoints-yellow
-  " style="transition: none; box-shadow: none;" />
+  <img alt="TwinFlow checkpoints on Hugging Face" src="https://img.shields.io/badge/Hugging%20Face-Checkpoints-FFD21E?logo=huggingface" style="transition: none; box-shadow: none;" />
 </a>
 
 👉 TwinFlow tames **large-scale few-step training** through self-adversarial flows, **eliminating the need for any auxiliary networks (discriminators, teachers, fake scores) by one-model design.** This scalable approach transforms **Qwen-Image-20B** into a high-quality few-step generator.
@@ -95,8 +126,7 @@ Looking at the present, I put my focus on:
 <a href="https://github.com/LINs-lab/DynMoE" style="text-decoration: none; color: inherit; background-color: transparent;">
   <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/LINs-lab/DynMoE?logo=github&label=LINs-lab%2FDynMoE" style="transition: none; box-shadow: none;" />
 </a> <a href="https://huggingface.co/collections/LINs-lab/dynmoe-family-665ed5a331a7e84463cab01a" style="text-decoration: none; color: inherit; background-color: transparent;">
-  <img alt="HF Checkpoints" src="https://img.shields.io/badge/%F0%9F%A4%97-HF_Checkpoints-yellow
-  " style="transition: none; box-shadow: none;" />
+  <img alt="DynMoE checkpoints on Hugging Face" src="https://img.shields.io/badge/Hugging%20Face-Checkpoints-FFD21E?logo=huggingface" style="transition: none; box-shadow: none;" />
 </a>
 
 👉 DynMoE **frees the burden of pivotal hyper-parameter selection for MoE training** by enabling each token to activate different number of experts, and adjusting the number of experts automatically, acheiving stronger sparsity well maintaining performance.
@@ -117,8 +147,7 @@ Looking at the present, I put my focus on:
 <a href="https://github.com/LINs-lab/GMem" style="text-decoration: none; color: inherit; background-color: transparent;">
   <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/LINs-lab/GMem?logo=github&label=LINs-lab%2FGMem" style="transition: none; box-shadow: none;" />
 </a> <a href="https://huggingface.co/Tangentone/GMem" style="text-decoration: none; color: inherit; background-color: transparent;">
-  <img alt="HF Checkpoints" src="https://img.shields.io/badge/%F0%9F%A4%97-HF_Checkpoints-yellow
-  " style="transition: none; box-shadow: none;" />
+  <img alt="GMem checkpoints on Hugging Face" src="https://img.shields.io/badge/Hugging%20Face-Checkpoints-FFD21E?logo=huggingface" style="transition: none; box-shadow: none;" />
 </a>
 
 👉 GMem decouples diffusion modeling by **network for generalizatio**n and external **memory bank for memorization**, achieving **50×** training speedup compared to SiT, **25×** speed up to REPA.
@@ -144,8 +173,7 @@ Looking at the present, I put my focus on:
 </a> <a href="https://github.com/zwq2018/Multi-modal-Self-instruct" style="text-decoration: none; color: inherit; background-color: transparent;">
   <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/zwq2018/Multi-modal-Self-instruct?logo=github&label=Multi-modal-Self-instruct" style="transition: none; box-shadow: none;" />
 </a> <a href="https://huggingface.co/datasets/zwq2018/Multi-modal-Self-instruct" style="text-decoration: none; color: inherit; background-color: transparent;">
-  <img alt="HF Datasets" src="https://img.shields.io/badge/%F0%9F%A4%97-HF_Datasets-yellow
-  " style="transition: none; box-shadow: none;" />
+  <img alt="Multimodal Self-Instruct datasets on Hugging Face" src="https://img.shields.io/badge/Hugging%20Face-Datasets-FFD21E?logo=huggingface" style="transition: none; box-shadow: none;" />
 </a> <a href="https://mp.weixin.qq.com/s/lebsZgdlp3iJRSaMXc5COg" style="text-decoration: none; color: inherit; background-color: transparent;">
   <img alt="HF Datasets" src="https://img.shields.io/badge/-WeChat@%E6%96%B0%E6%99%BA%E5%85%83-FFFFF0?logo=wechat&logoColor=07C160" style="transition: none; box-shadow: none;" />
 </a>
@@ -155,10 +183,11 @@ Looking at the present, I put my focus on:
 </div> -->
 
 # Experiences
-- *2025/07 - Present*, [inclusionAI, Ant Group](https://inclusionai.github.io/) (Tech Leader: Dr. [Jianguo Li](https://sites.google.com/site/leeplus/)).
+- *2026/09 - Present*, [Tencent](https://www.tencent.com/).
+- *2025/07 - 2026/09*, [inclusionAI, Ant Group](https://inclusionai.github.io/) (Tech Leader: Dr. [Jianguo Li](https://sites.google.com/site/leeplus/)).
 
 # Academic Services
-- Conference Reviewer: ICLR, ICML.
+- Conference Reviewer: ICLR, ICML, NeurIPS.
 
 # Educations
 - *2024/09 - 2029/06*, Westlake University, College of Engineering.
