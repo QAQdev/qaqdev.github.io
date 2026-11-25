@@ -1,0 +1,55 @@
+name: Zhenglin Cheng
+short_name: Zhenglin Cheng
+role: "Ph.D. Student at Westlake University & Zhejiang University"
+location: "Shanghai, China"
+avatar: "/images/me-avatar.jpg"
+email: "zhenglin.cheng@zju.edu.cn"
+email_display: "zju.edu.cn"
+cv_url: "/images/Zhenglin_Cheng_CV.pdf"
+cv_label: "Curriculum Vitae (Jan 2026)"
+latest_paper_id: "llada-image"
+
+intro_kicker: "Generative Modeling · World Models"
+intro_body_html: >-
+  I am a third-year Ph.D. student at
+  <img class="inline-logo" src="/images/lab-logo.png" alt="LINs Lab">
+  <a href="https://lins-lab.github.io" target="_blank" rel="noopener noreferrer">LINs Lab, Westlake University</a>
+  (joint program with Zhejiang University), advised by
+  <a href="https://tlin-taolin.github.io/" target="_blank" rel="noopener noreferrer">Prof. Tao Lin</a>.
+  Previously, I received my B.E. in Software Engineering from Zhejiang University (ZJU).
+  My long-term research goal is to build efficient multimodal agents that can
+  <strong>understand</strong> the physical world, <strong>reason</strong> on real-world problems,
+  and <strong>generate</strong> novel ideas—continually learning from experience in an evolving environment.
+
+research_focus:
+  - index: "01 / FOCUS"
+    title: "Interactive Video & World Models"
+    description: "Making video diffusion models strong, responsive, and real-time interactive entrypoints for real-world users."
+  - index: "02 / FOCUS"
+    title: "Few-Step Generation"
+    description: "Training and distilling large continuous diffusion generators into high-fidelity 1-step or few-step models."
+
+socials:
+  - label: "Email"
+    icon: "mail"
+    url: "mailto:zhenglin.cheng@zju.edu.cn"
+    handle: "zju.edu.cn"
+    external: false
+  - label: "Google Scholar"
+    icon: "scholar"
+    url: "https://scholar.google.com/citations?user=T4xaaOEAAAAJ"
+    external: true
+  - label: "GitHub"
+    icon: "github"
+    url: "https://github.com/QAQdev"
+    handle: "@QAQdev"
+    external: true
+  - label: "X / Twitter"
+    icon: "x"
+    url: "https://twitter.com/cheng_zhenglin"
+    handle: "@cheng_zhenglin"
+    external: true
+  - label: "LinkedIn"
+    icon: "linkedin"
+    url: "https://www.linkedin.com/in/zhenglin-cheng-52264a28b"
+    external: true

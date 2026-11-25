@@ -1,0 +1,90 @@
+{% assign paper = include.paper %}
+{% assign slide_count = paper.slides | size %}
+<article id="{{ paper.id }}" class="pub-card">
+  <div class="pub-media pub-media--{{ paper.orientation | default: 'landscape' }}" data-slideshow data-lightbox-group>
+    <div class="pub-media__stage">
+      {% for slide in paper.slides %}
+        <div class="slide-item{% if slide.diagram %} slide-item--diagram{% endif %}{% if forloop.first %} is-active{% endif %}">
+          <img
+            src="{{ slide.src | relative_url }}"
+            alt="{{ slide.alt }}"
+            data-zoomable
+            data-caption="{{ slide.caption | default: slide.alt }}"
+            loading="lazy"
+            decoding="async">
+        </div>
+      {% endfor %}
+    </div>
+
+    <div class="pub-media__bar">
+      <div class="pub-media__bar-left">
+        {% if slide_count > 1 %}
+          <div class="slide-dots" role="tablist" aria-label="Figure slides">
+            {% for slide in paper.slides %}
+              <button
+                class="slide-dot{% if forloop.first %} is-active{% endif %}"
+                type="button"
+                aria-label="Show slide {{ forloop.index }} of {{ slide_count }}"
+                aria-current="{% if forloop.first %}true{% else %}false{% endif %}"></button>
+            {% endfor %}
+          </div>
+          <span class="pub-media__label slide-counter">1 / {{ slide_count }}</span>
+        {% endif %}
+      </div>
+
+      <div class="pub-media__bar-right">
+        {% if slide_count > 1 %}
+          <button class="media-btn slide-prev" type="button" aria-label="Previous figure" title="Previous figure">‹</button>
+          <button class="media-btn slide-next" type="button" aria-label="Next figure" title="Next figure">›</button>
+        {% endif %}
+        <button class="media-btn media-zoom" type="button" aria-label="Zoom figure" title="Inspect full image">
+          {% include components/icon.html name="zoom" %}
+          <span>Zoom</span>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <div class="pub-body">
+    <div class="pub-meta-row">
+      <span class="pub-venue{% if paper.venue_style == 'report' %} pub-venue--report{% endif %}">{{ paper.venue }}</span>
+      {% if paper.tags %}
+        <span class="pub-tag">{{ paper.tags }}</span>
+      {% endif %}
+    </div>
+
+    <h3 class="pub-title">
+      <a href="{{ paper.url }}" target="_blank" rel="noopener noreferrer">{{ paper.title }}</a>
+    </h3>
+
+    <div class="pub-authors" data-author-clamp data-author-count="{{ paper.authors | size }}">
+      <p class="pub-authors__text">
+        {%- for author in paper.authors -%}
+          <span class="author-token{% if author.me %} author-token--me{% endif %}">{{ author.name }}{% if author.equal %}*{% endif %}{% if author.core %}{% include components/icon.html name="diamond" %}{% endif %}</span>{% unless forloop.last %}, {% endunless %}
+        {%- endfor -%}
+      </p>
+      <button class="authors-toggle" type="button" aria-expanded="false">Show all {{ paper.authors | size }} authors</button>
+    </div>
+
+    <p class="pub-summary">{{ paper.summary }}</p>
+
+    <div class="pub-links">
+      {% for link in paper.links %}
+        <a
+          class="pill-link{% if link.type == 'huggingface' %} pill-link--hf{% endif %}"
+          href="{{ link.url }}"
+          target="_blank"
+          rel="noopener noreferrer">
+          <span class="pill-link__icon">{% include components/icon.html name=link.type %}</span>
+          <span>{{ link.label }}</span>
+          {% if link.repo %}
+            <span class="pill-stars" data-github-stars="{{ link.repo }}" aria-label="GitHub stars">
+              {% include components/icon.html name="star" %}
+              <span class="pill-stars__count"></span>
+            </span>
+          {% endif %}
+        </a>
+      {% endfor %}
+    </div>
+  </div>
+</article>

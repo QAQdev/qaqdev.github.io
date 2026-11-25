@@ -1,0 +1,120 @@
+/* ==========================================================================
+   Design Tokens & Theme Palettes (Light Editorial + Warm Editorial Dark)
+   ========================================================================== */
+
+@font-face {
+  font-family: 'Optima';
+  src: url('Optima-Regular-01.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Optima';
+  src: url('Optima-Bold-02.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Optima';
+  src: url('Optima-Italic-03.ttf') format('truetype');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Optima';
+  src: url('Optima-BoldItalic-04.ttf') format('truetype');
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+
+:root {
+  /* Light Mode: Warm Alabaster Paper */
+  --bg: #FAF9F6;
+  --nav-bg: rgba(250, 249, 246, 0.86);
+  --surface: #FFFFFF;
+  --surface-muted: #F3F1EC;
+  --surface-hover: rgba(28, 25, 23, 0.045);
+  --diagram-bg: #FFFFFF;
+
+  --ink: #1C1917;
+  --ink-secondary: #57534E;
+  --ink-muted: #78716C;
+
+  --border: rgba(28, 25, 23, 0.09);
+  --border-strong: rgba(28, 25, 23, 0.16);
+
+  --accent: #1E3A5F;
+  --accent-hover: #132844;
+  --accent-soft: rgba(30, 58, 95, 0.08);
+  --accent-underline: rgba(30, 58, 95, 0.28);
+
+  --warm-accent: #9A5B25;
+  --warm-accent-soft: rgba(154, 91, 37, 0.09);
+
+  --cta-bg: #1C1917;
+  --cta-ink: #FAF9F6;
+  --cta-hover-bg: #1E3A5F;
+  --cta-hover-ink: #FFFFFF;
+
+  --hf-accent: #B45309;
+  --star-accent: #B45309;
+
+  --shadow-soft: 0 1px 2px rgba(28, 25, 23, 0.04), 0 8px 24px rgba(28, 25, 23, 0.05);
+  --shadow-card: 0 1px 2px rgba(28, 25, 23, 0.03);
+  --shadow-hover: 0 2px 6px rgba(28, 25, 23, 0.06), 0 12px 28px rgba(28, 25, 23, 0.07);
+
+  /* Typography */
+  --font-display: 'Optima', 'Newsreader', Georgia, serif;
+  --font-serif: 'Newsreader', Georgia, serif;
+  --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --font-mono: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace;
+
+  /* Radii */
+  --radius-sm: 6px;
+  --radius-md: 12px;
+  --radius-lg: 16px;
+}
+
+:root[data-theme="dark"] {
+  /* Dark Mode: Warm Editorial Obsidian */
+  --bg: #121110;
+  --nav-bg: rgba(18, 17, 16, 0.84);
+  --surface: #1B1917;
+  --surface-muted: #24211E;
+  --surface-hover: rgba(250, 249, 246, 0.06);
+  --diagram-bg: #F6F5F1;
+
+  --ink: #EEECE6;
+  --ink-secondary: #B5AFA6;
+  --ink-muted: #8E877E;
+
+  --border: rgba(250, 249, 246, 0.09);
+  --border-strong: rgba(250, 249, 246, 0.17);
+
+  --accent: #8FB4DC;
+  --accent-hover: #B4D0EE;
+  --accent-soft: rgba(143, 180, 220, 0.13);
+  --accent-underline: rgba(143, 180, 220, 0.36);
+
+  --warm-accent: #DDA461;
+  --warm-accent-soft: rgba(221, 164, 97, 0.14);
+
+  --cta-bg: #EEECE6;
+  --cta-ink: #121110;
+  --cta-hover-bg: #8FB4DC;
+  --cta-hover-ink: #121110;
+
+  --hf-accent: #F5B942;
+  --star-accent: #F5B942;
+
+  --shadow-soft: 0 1px 2px rgba(0, 0, 0, 0.4), 0 10px 28px rgba(0, 0, 0, 0.32);
+  --shadow-card: 0 1px 2px rgba(0, 0, 0, 0.28);
+  --shadow-hover: 0 4px 12px rgba(0, 0, 0, 0.42), 0 14px 32px rgba(0, 0, 0, 0.36);
+}

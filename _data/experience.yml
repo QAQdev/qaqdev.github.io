@@ -1,0 +1,31 @@
+experience:
+  - period: "2026.09 — Present"
+    org: "Tencent IEG (Qingyun Program)"
+    url: "https://www.tencent.com/"
+
+  - period: "2025.07 — 2026.09"
+    org: "inclusionAI, Ant Group"
+    url: "https://inclusionai.github.io/"
+    note_html: >-
+      Tech Leader: Dr. <a href="https://sites.google.com/site/leeplus/" target="_blank" rel="noopener noreferrer">Jianguo Li</a>
+
+education:
+  - period: "2024.09 — 2029.06"
+    school: "Westlake University"
+    degree: "Ph.D. Student"
+    logo: "/images/westlake-logo.png"
+    logo_alt: "Westlake University"
+    logo_size: 16
+    subtitle: "College of Engineering (Joint Program with Zhejiang University)"
+
+  - period: "2020.09 — 2024.06"
+    school: "Zhejiang University"
+    degree: "B.E."
+    logo: "/images/zju-logo.png"
+    logo_alt: "Zhejiang University"
+    logo_size: 21
+    subtitle: "College of Computer Science and Technology · Software Engineering"
+
+services:
+  - role: "Reviewer"
+    venues: "CVPR, ICLR, ICML, NeurIPS"

@@ -1,0 +1,39 @@
+{% assign profile = site.data.profile %}
+<aside class="sidebar" itemscope itemtype="http://schema.org/Person">
+  <div class="sidebar__header">
+    <div class="avatar-frame">
+      <img src="{{ profile.avatar | relative_url }}" alt="{{ profile.name }}" fetchpriority="high" decoding="async">
+    </div>
+
+    <div class="sidebar__identity">
+      <h1 class="author-name" itemprop="name">{{ profile.name }}</h1>
+      <p class="author-role">{{ profile.role }}</p>
+      <div class="author-meta">
+        {% include components/icon.html name="pin" %}
+        <span>{{ profile.location }}</span>
+      </div>
+    </div>
+
+    <div class="sidebar__cta">
+      <a class="cv-button" href="{{ profile.cv_url | relative_url }}" target="_blank" rel="noopener noreferrer">
+        {% include components/icon.html name="cv" %}
+        <span>{{ profile.cv_label }}</span>
+      </a>
+    </div>
+  </div>
+
+  <ul class="social-list">
+    {% for item in profile.socials %}
+      <li>
+        <a
+          href="{{ item.url }}"{% if item.external %} target="_blank" rel="noopener noreferrer"{% endif %}{% if item.icon == 'mail' %} data-copy-email="{{ profile.email }}" title="{{ profile.email }} (click to email &amp; copy)"{% endif %}>
+          {% include components/icon.html name=item.icon %}
+          <span>{{ item.label }}</span>
+          {% if item.handle %}
+            <span class="social-handle">{{ item.handle }}</span>
+          {% endif %}
+        </a>
+      </li>
+    {% endfor %}
+  </ul>
+</aside>

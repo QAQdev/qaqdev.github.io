@@ -1,33 +1,27 @@
----
-layout: compress
----
-
 <!doctype html>
-<html lang="en" class="no-js">
+<html lang="en">
   <head>
     {% include head.html %}
     {% include head/custom.html %}
   </head>
 
-  <body>
+  <body
+    data-oneko-target="{{ site.data.profile.latest_paper_id | default: 'llada-image' }}"
+    data-oneko-sprite="{{ '/images/oneko.gif' | relative_url }}">
 
-    {% include browser-upgrade.html %}
-    {% include masthead.html %}
+    {% include components/masthead.html %}
 
-    <div id="main" role="main">
-      {% include sidebar.html %}
-    
-      <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
-        {% if page.title %}<meta itemprop="headline" content="{{ page.title | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
-        <div class="page__inner-wrap">
-          <section class="page__content" itemprop="text">
-            {{ content }}
-          </section>
-        </div>
-      </article>
+    <div class="layout">
+      {% if page.author_profile != false %}
+        {% include components/sidebar.html %}
+      {% endif %}
+
+      <main class="content" role="main">
+        {{ content }}
+      </main>
     </div>
 
+    {% include components/lightbox.html %}
     {% include scripts.html %}
-
   </body>
 </html>

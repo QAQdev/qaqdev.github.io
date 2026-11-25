@@ -1,0 +1,37 @@
+<header class="masthead">
+  <div class="masthead__inner">
+    <a href="#about" class="masthead__brand" id="pin">{{ site.data.profile.short_name }}</a>
+
+    <div class="masthead__right">
+      <nav class="masthead__nav" aria-label="Primary navigation">
+        {% for link in site.data.navigation.main %}
+          <a href="{{ link.url }}">{{ link.title }}</a>
+        {% endfor %}
+      </nav>
+
+      <div class="masthead__controls">
+        <button id="oneko-toggle" class="ctrl-btn is-active" type="button" aria-pressed="true" title="Toggle oneko cat companion">
+          <img src="{{ '/images/android-chrome-512x512.png' | relative_url }}" alt="" width="15" height="15">
+          <span class="oneko-label">oneko</span>
+        </button>
+
+        <button id="theme-toggle" class="ctrl-btn ctrl-btn--icon" type="button" aria-label="Toggle color theme" title="Toggle Dark / Light Mode">
+          <span class="theme-icon-sun" style="display:none">{% include components/icon.html name="sun" %}</span>
+          <span class="theme-icon-moon">{% include components/icon.html name="moon" %}</span>
+        </button>
+
+        <button id="menu-toggle" class="ctrl-btn ctrl-btn--icon menu-toggle" type="button" aria-expanded="false" aria-controls="mobile-nav" aria-label="Toggle navigation menu">
+          {% include components/icon.html name="menu" %}
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <nav id="mobile-nav" class="mobile-nav" aria-label="Mobile navigation">
+    <div class="mobile-nav__links">
+      {% for link in site.data.navigation.main %}
+        <a href="{{ link.url }}">{{ link.title }}</a>
+      {% endfor %}
+    </div>
+  </nav>
+</header>

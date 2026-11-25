@@ -1,0 +1,414 @@
+/* ==========================================================================
+   Publications: Balanced Cards, Unobstructed Media Bar, Auto-Clamp Authors,
+   Unified Brand-Logo Action Pills with Live GitHub Stars
+   ========================================================================== */
+
+.pub-list {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+
+.pub-card {
+  display: grid;
+  grid-template-columns: 286px minmax(0, 1fr);
+  gap: 24px;
+  align-items: center;
+  padding: 20px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-card);
+  transition: box-shadow 0.2s ease, border-color 0.2s ease, transform 0.2s ease;
+}
+
+.pub-card:hover {
+  border-color: var(--border-strong);
+  box-shadow: var(--shadow-hover);
+  transform: translateY(-1px);
+}
+
+/* Media Container with Dedicated Bottom Control Strip (Zero Overlap!) */
+.pub-media {
+  border-radius: 10px;
+  overflow: hidden;
+  border: 1px solid var(--border);
+  background: var(--surface-muted);
+  display: flex;
+  flex-direction: column;
+}
+
+.pub-media__stage {
+  position: relative;
+  width: 100%;
+  background: var(--diagram-bg);
+  cursor: zoom-in;
+  overflow: hidden;
+}
+
+.pub-media--portrait .pub-media__stage {
+  aspect-ratio: 4 / 4.35;
+}
+
+.pub-media--landscape .pub-media__stage {
+  aspect-ratio: 16 / 10.6;
+}
+
+.slide-item {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.35s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--surface-muted);
+}
+
+.slide-item.is-active {
+  z-index: 2;
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.slide-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.slide-item--diagram {
+  padding: 14px 16px;
+  background: var(--diagram-bg);
+}
+
+.slide-item--diagram img {
+  object-fit: contain;
+}
+
+/* Dedicated Slim Control Bar Below Figure */
+.pub-media__bar {
+  height: 30px;
+  padding: 0 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  background: var(--surface-muted);
+  border-top: 1px solid var(--border);
+}
+
+.pub-media__bar-left {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.pub-media__bar-right {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.pub-media__label {
+  font-family: var(--font-mono);
+  font-size: 10.5px;
+  color: var(--ink-muted);
+  letter-spacing: 0.02em;
+}
+
+.slide-dots {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.slide-dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 999px;
+  border: 0;
+  padding: 0;
+  background: var(--border-strong);
+  cursor: pointer;
+  transition: width 0.2s ease, background-color 0.2s ease;
+}
+
+.slide-dot.is-active {
+  width: 14px;
+  background: var(--accent);
+}
+
+.media-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  height: 22px;
+  min-width: 22px;
+  padding: 0 5px;
+  border-radius: 5px;
+  border: 0;
+  background: transparent;
+  color: var(--ink-muted);
+  font-family: var(--font-mono);
+  font-size: 10.5px;
+  cursor: pointer;
+  transition: background-color 0.14s ease, color 0.14s ease;
+}
+
+.media-btn:hover {
+  background: var(--surface-hover);
+  color: var(--ink);
+}
+
+.media-btn svg {
+  width: 12px;
+  height: 12px;
+  display: block;
+}
+
+/* Publication Text Column */
+.pub-body {
+  min-width: 0;
+}
+
+.pub-meta-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 7px;
+  flex-wrap: wrap;
+}
+
+.pub-venue {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  padding: 2px 9px;
+  border-radius: 999px;
+  background: var(--accent-soft);
+  color: var(--accent);
+}
+
+.pub-venue--report {
+  background: var(--warm-accent-soft);
+  color: var(--warm-accent);
+}
+
+.pub-tag {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  color: var(--ink-muted);
+}
+
+.pub-title {
+  font-family: var(--font-display);
+  font-size: 17.5px;
+  font-weight: 700;
+  line-height: 1.34;
+  margin: 0 0 7px;
+}
+
+.pub-title a {
+  color: var(--ink);
+  text-decoration: none;
+}
+
+.pub-title a:hover {
+  color: var(--accent);
+}
+
+/* Authors with Automatic 2-Line Clamp */
+.pub-authors {
+  margin: 0 0 10px;
+}
+
+.pub-authors__text {
+  font-size: 13px;
+  line-height: 1.54;
+  color: var(--ink-muted);
+  margin: 0;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.pub-authors.is-expanded .pub-authors__text {
+  display: block;
+  -webkit-line-clamp: unset;
+  overflow: visible;
+}
+
+.author-token {
+  white-space: nowrap;
+}
+
+.author-token--me {
+  color: var(--ink);
+  font-weight: 600;
+}
+
+.core-diamond {
+  display: inline-block;
+  width: 0.56em;
+  height: 0.56em;
+  margin: 0 0.04em 0 0.16em;
+  vertical-align: 0.08em;
+  color: var(--accent);
+  fill: currentColor;
+}
+
+.authors-toggle {
+  display: none;
+  margin-top: 3px;
+  border: 0;
+  background: none;
+  padding: 0;
+  font-family: var(--font-mono);
+  font-size: 11px;
+  color: var(--accent);
+  cursor: pointer;
+  text-decoration: underline;
+  text-decoration-color: var(--accent-underline);
+  text-underline-offset: 2px;
+}
+
+.pub-authors.is-collapsible .authors-toggle {
+  display: inline-block;
+}
+
+.authors-toggle:hover {
+  color: var(--accent-hover);
+}
+
+.pub-summary {
+  font-size: 13.6px;
+  line-height: 1.62;
+  color: var(--ink-secondary);
+  margin: 0 0 13px;
+}
+
+.pub-summary strong {
+  color: var(--ink);
+  font-weight: 600;
+}
+
+/* Unified Action Pills with Brand Logos & Live GitHub Stars */
+.pub-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.pill-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 4px 8px;
+  border-radius: 7px;
+  border: 1px solid var(--border-strong);
+  background: var(--bg);
+  color: var(--ink-secondary);
+  font-size: 11.8px;
+  font-weight: 500;
+  line-height: 1.3;
+  text-decoration: none;
+  white-space: nowrap;
+  transition: border-color 0.15s ease, background-color 0.15s ease, color 0.15s ease;
+}
+
+.pill-link:hover {
+  border-color: var(--accent);
+  background: var(--accent-soft);
+  color: var(--accent);
+  text-decoration: none;
+}
+
+.pill-link__icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 13px;
+  height: 13px;
+  flex-shrink: 0;
+}
+
+.pill-link__icon svg,
+.pill-link__icon img {
+  width: 14px;
+  height: 14px;
+  display: block;
+  object-fit: contain;
+}
+
+.pill-link--hf .pill-link__icon {
+  color: var(--hf-accent);
+}
+
+.pill-stars {
+  display: none;
+  align-items: center;
+  gap: 3px;
+  margin-left: 2px;
+  padding-left: 6px;
+  border-left: 1px solid var(--border-strong);
+  font-family: var(--font-mono);
+  font-size: 11px;
+  font-variant-numeric: tabular-nums;
+  color: var(--ink);
+}
+
+.pill-stars.is-loaded {
+  display: inline-flex;
+}
+
+.pill-stars svg {
+  width: 11px;
+  height: 11px;
+  color: var(--star-accent);
+  fill: currentColor;
+  flex-shrink: 0;
+}
+
+/* Compact Laptop Breakpoint (1024px - 1140px) */
+@media (max-width: 1140px) and (min-width: 1024px) {
+  .pub-card {
+    grid-template-columns: 244px minmax(0, 1fr);
+    gap: 20px;
+    padding: 18px;
+  }
+}
+
+/* Tablet Portrait & Mobile Responsive Publications */
+@media (max-width: 900px) {
+  .pub-card {
+    grid-template-columns: 252px minmax(0, 1fr);
+    gap: 20px;
+    padding: 18px;
+  }
+}
+
+@media (max-width: 740px) {
+  .pub-card {
+    grid-template-columns: 1fr;
+    gap: 16px;
+    padding: 16px;
+  }
+
+  .pub-media--portrait .pub-media__stage {
+    aspect-ratio: 4 / 3.8;
+  }
+
+  .pub-media--landscape .pub-media__stage {
+    aspect-ratio: 16 / 10;
+  }
+}

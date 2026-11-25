@@ -1,0 +1,153 @@
+- id: "llada-image"
+  venue: "Technical Report · 2026"
+  venue_style: "report"
+  title: "LLaDA-Image: Building Strong Image Generators with Fully Open Training Recipes"
+  url: "https://arxiv.org/abs/2609.03796"
+  orientation: "portrait"
+  slides:
+    - src: "/images/llada-image-demo1.webp"
+      alt: "LLaDA-Image photorealistic generation showcase"
+      caption: "LLaDA-Image — Photorealistic generation showcase"
+      diagram: false
+    - src: "/images/llada-image-demo2.webp"
+      alt: "LLaDA-Image text rendering and poster generation showcase"
+      caption: "LLaDA-Image — Chinese–English text rendering & poster generation"
+      diagram: false
+  authors:
+    - name: "Chuyan Chen"
+    - name: "Haoxing Chen"
+    - name: "Kun Chen"
+    - name: "Zhenglin Cheng"
+      me: true
+      core: true
+    - name: "Long Cui"
+    - name: "Ruishan Fang"
+    - name: "Zhangxuan Gu"
+    - name: "Zhicheng Huang"
+    - name: "Zhenzhong Lan"
+    - name: "Yuanting Lei"
+    - name: "Haoquan Li"
+    - name: "Jianguo Li"
+    - name: "Rongchuan Li"
+    - name: "Sidu Li"
+    - name: "Tao Lin"
+    - name: "Deyuan Liu"
+    - name: "Jiacheng Liu"
+      core: true
+    - name: "Lin Liu"
+    - name: "Yuxuan Lou"
+    - name: "Zhisheng Lu"
+    - name: "Yuxin Ma"
+    - name: "Shuheng Shen"
+    - name: "Peng Sun"
+      core: true
+    - name: "Chaoyang Wang"
+    - name: "Hongjun Wang"
+    - name: "Xiaomei Wang"
+    - name: "Yongxin Wang"
+    - name: "Chengzhang Wu"
+    - name: "Hongru Wu"
+    - name: "Jun Xie"
+      core: true
+  summary: >-
+    A <strong>6B unified diffusion model family</strong> for high-quality image generation and editing—supporting
+    text-to-image, VQ-conditioned generation, instruction-guided editing, and Chinese–English text rendering;
+    its Turbo variant enables fast generation and editing in only <strong>2–4 sampling steps</strong>.
+  links:
+    - type: "paper"
+      label: "Paper"
+      url: "https://arxiv.org/abs/2609.03796"
+    - type: "github"
+      label: "Code"
+      url: "https://github.com/inclusionAI/LLaDA-Image"
+      repo: "inclusionAI/LLaDA-Image"
+    - type: "huggingface"
+      label: "Base"
+      url: "https://huggingface.co/inclusionAI/LLaDA-Image"
+    - type: "huggingface"
+      label: "Base-FP8"
+      url: "https://huggingface.co/inclusionAI/LLaDA-Image-FP8"
+    - type: "huggingface"
+      label: "Turbo"
+      url: "https://huggingface.co/inclusionAI/LLaDA-Image-Turbo"
+    - type: "huggingface"
+      label: "Turbo-FP8"
+      url: "https://huggingface.co/inclusionAI/LLaDA-Image-Turbo-FP8"
+
+- id: "twinflow"
+  venue: "ICLR 2026"
+  venue_style: "conference"
+  title: "TwinFlow: Realizing One-step Generation on Large Models with Self-adversarial Flows"
+  url: "https://www.arxiv.org/abs/2512.05150"
+  orientation: "landscape"
+  slides:
+    - src: "/images/twinflow.png"
+      alt: "TwinFlow self-adversarial flow framework diagram"
+      caption: "TwinFlow — Self-adversarial flow framework diagram"
+      diagram: true
+    - src: "/images/twinflow_qwen-web.jpg"
+      alt: "TwinFlow few-step generation showcase on Qwen-Image-20B"
+      caption: "TwinFlow — Few-step generation results on Qwen-Image-20B"
+      diagram: false
+  authors:
+    - name: "Zhenglin Cheng"
+      me: true
+      equal: true
+    - name: "Peng Sun"
+      equal: true
+    - name: "Jianguo Li"
+    - name: "Tao Lin"
+  summary: >-
+    Tames <strong>large-scale few-step training</strong> through self-adversarial flows,
+    <strong>eliminating auxiliary networks (discriminators, teachers, fake scores)</strong> via a clean
+    one-model design—transforming <strong>Qwen-Image-20B</strong> into a high-quality few-step generator.
+  links:
+    - type: "paper"
+      label: "Paper"
+      url: "https://www.arxiv.org/abs/2512.05150"
+    - type: "project"
+      label: "Project"
+      url: "https://zhenglin-cheng.com/twinflow"
+    - type: "github"
+      label: "Code"
+      url: "https://github.com/inclusionAI/TwinFlow"
+      repo: "inclusionAI/TwinFlow"
+    - type: "huggingface"
+      label: "Checkpoints"
+      url: "https://huggingface.co/inclusionAI/TwinFlow"
+
+- id: "dynmoe"
+  venue: "ICLR 2025"
+  venue_style: "conference"
+  title: "Dynamic Mixture of Experts: An Auto-Tuning Approach for Efficient Transformer Models"
+  url: "https://openreview.net/forum?id=T26f9z2rEe"
+  orientation: "landscape"
+  slides:
+    - src: "/images/adaptive.jpg"
+      alt: "DynMoE dynamic expert activation and auto-tuning architecture"
+      caption: "DynMoE — Dynamic expert activation and auto-tuning architecture"
+      diagram: true
+  authors:
+    - name: "Yongxin Guo"
+      equal: true
+    - name: "Zhenglin Cheng"
+      me: true
+      equal: true
+    - name: "Xiaoying Tang"
+    - name: "Zhaopeng Tu"
+    - name: "Tao Lin"
+  summary: >-
+    Frees the burden of pivotal hyper-parameter selection for MoE training by enabling each token to
+    activate a variable number of experts and adjusting the number of experts automatically—achieving
+    stronger sparsity while maintaining performance.
+  links:
+    - type: "openreview"
+      label: "OpenReview"
+      url: "https://openreview.net/forum?id=T26f9z2rEe"
+    - type: "github"
+      label: "Code"
+      url: "https://github.com/LINs-lab/DynMoE"
+      repo: "LINs-lab/DynMoE"
+    - type: "huggingface"
+      label: "Checkpoints"
+      url: "https://huggingface.co/collections/LINs-lab/dynmoe-family-665ed5a331a7e84463cab01a"

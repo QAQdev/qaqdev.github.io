@@ -1,0 +1,19 @@
+- date: "2026.09"
+  html: >-
+    We released the <a href="https://github.com/inclusionAI/LLaDA-Image" target="_blank" rel="noopener noreferrer">LLaDA-Image</a>
+    Base and Turbo checkpoints, have fun!
+
+- date: "2026.01"
+  html: >-
+    🥳 <a href="https://www.arxiv.org/abs/2512.05150" target="_blank" rel="noopener noreferrer">TwinFlow</a>
+    is accepted to ICLR'26, see you in Rio de Janeiro, Brazil 🇧🇷 !
+
+- date: "2025.12"
+  html: >-
+    🚀 We release <a href="https://www.arxiv.org/abs/2512.05150" target="_blank" rel="noopener noreferrer">TwinFlow</a>,
+    a simple and effective framework for <strong>one-step generation!</strong>
+
+- date: "2025.01"
+  html: >-
+    🥳 <a href="https://openreview.net/forum?id=T26f9z2rEe" target="_blank" rel="noopener noreferrer">Dynamic Mixture of Experts (DynMoE)</a>
+    is accepted to ICLR'25, see you in Singapore 🇸🇬 !

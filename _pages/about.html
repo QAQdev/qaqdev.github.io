@@ -1,0 +1,114 @@
+---
+permalink: /
+title: ""
+excerpt: ""
+author_profile: true
+redirect_from:
+  - /about/
+  - /about.html
+---
+
+{% assign profile = site.data.profile %}
+{% assign exp = site.data.experience %}
+
+<section id="about" class="section">
+  <p class="intro-kicker">{{ profile.intro_kicker }}</p>
+  <p class="intro-body">{{ profile.intro_body_html }}</p>
+
+  <div class="research-grid">
+    {% for item in profile.research_focus %}
+      <div class="research-card">
+        <div class="research-card__num">{{ item.index }}</div>
+        <h2 class="research-card__title">{{ item.title }}</h2>
+        <p class="research-card__desc">{{ item.description }}</p>
+      </div>
+    {% endfor %}
+  </div>
+</section>
+
+<section id="news" class="section">
+  <div class="section-header">
+    <h2 class="section-title">News</h2>
+  </div>
+  <div class="timeline">
+    {% for item in site.data.news %}
+      <div class="timeline-row">
+        <span class="timeline-date">{{ item.date }}</span>
+        <span class="timeline-text">{{ item.html }}</span>
+      </div>
+    {% endfor %}
+  </div>
+</section>
+
+<section id="publications" class="section">
+  <div class="section-header">
+    <h2 class="section-title">Publications &amp; Manuscripts</h2>
+    <span class="section-note">* equal contribution · {% include components/icon.html name="diamond" %} core contributor</span>
+  </div>
+  <div class="pub-list">
+    {% for paper in site.data.publications %}
+      {% include components/publication-card.html paper=paper %}
+    {% endfor %}
+  </div>
+</section>
+
+<section id="experience" class="section">
+  <div class="section-header">
+    <h2 class="section-title">Experience</h2>
+  </div>
+  <div class="record-list">
+    {% for item in exp.experience %}
+      <div class="record-row">
+        <span class="record-period">{{ item.period }}</span>
+        <div class="record-main">
+          <a href="{{ item.url }}" target="_blank" rel="noopener noreferrer">{{ item.org }}</a>{% if item.note_html %}<span class="record-note"> ({{ item.note_html }})</span>{% endif %}
+          {% if item.subtitle_html %}
+            <span class="record-sub">{{ item.subtitle_html }}</span>
+          {% endif %}
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+</section>
+
+<section id="education" class="section">
+  <div class="section-header">
+    <h2 class="section-title">Education &amp; Service</h2>
+  </div>
+  <div class="record-list">
+    {% for item in exp.education %}
+      <div class="record-row">
+        <span class="record-period">{{ item.period }}</span>
+        <div class="record-main">
+          <span class="record-heading">
+            {% if item.logo %}
+              <span class="record-logo">
+                <img
+                  src="{{ item.logo | relative_url }}"
+                  alt="{{ item.logo_alt }}"
+                  style="width: {{ item.logo_size | default: 18 }}px; height: {{ item.logo_size | default: 18 }}px;"
+                  loading="lazy"
+                  decoding="async">
+              </span>
+            {% endif %}
+            <span>{{ item.school }} · {{ item.degree }}</span>
+          </span>
+          {% if item.subtitle %}
+            <span class="record-sub">{{ item.subtitle }}</span>
+          {% endif %}
+        </div>
+      </div>
+    {% endfor %}
+    {% for item in exp.services %}
+      <div class="record-row">
+        <span class="record-period">{{ item.role }}</span>
+        <div class="record-main">{{ item.venues }}</div>
+      </div>
+    {% endfor %}
+  </div>
+</section>
+
+<footer class="footer">
+  <span>© {{ 'now' | date: '%Y' }} {{ profile.name }}</span>
+  <span>May oneko lead you to my latest work.</span>
+</footer>
