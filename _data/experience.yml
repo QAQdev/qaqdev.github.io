@@ -13,7 +13,7 @@ education:
   - period: "2024.09 — 2029.06"
     school: "Westlake University"
     degree: "Ph.D. Student"
-    logo: "/images/westlake-logo.png"
+    logo: "/images/thumbs/westlake-logo.webp"
     logo_alt: "Westlake University"
     logo_size: 16
     subtitle: "College of Engineering (Joint Program with Zhejiang University)"
@@ -21,7 +21,7 @@ education:
   - period: "2020.09 — 2024.06"
     school: "Zhejiang University"
     degree: "B.E."
-    logo: "/images/zju-logo.png"
+    logo: "/images/thumbs/zju-logo.webp"
     logo_alt: "Zhejiang University"
     logo_size: 21
     subtitle: "College of Computer Science and Technology · Software Engineering"

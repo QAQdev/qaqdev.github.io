@@ -5,11 +5,13 @@
   url: "https://arxiv.org/abs/2609.03796"
   orientation: "portrait"
   slides:
-    - src: "/images/llada-image-demo1.webp"
+    - src: "/images/thumbs/llada-image-demo1.webp"
+      full_src: "/images/llada-image-demo1.webp"
       alt: "LLaDA-Image photorealistic generation showcase"
       caption: "LLaDA-Image — Photorealistic generation showcase"
       diagram: false
-    - src: "/images/llada-image-demo2.webp"
+    - src: "/images/thumbs/llada-image-demo2.webp"
+      full_src: "/images/llada-image-demo2.webp"
       alt: "LLaDA-Image text rendering and poster generation showcase"
       caption: "LLaDA-Image — Chinese–English text rendering & poster generation"
       diagram: false
@@ -81,11 +83,13 @@
   url: "https://www.arxiv.org/abs/2512.05150"
   orientation: "landscape"
   slides:
-    - src: "/images/twinflow.png"
+    - src: "/images/thumbs/twinflow.webp"
+      full_src: "/images/twinflow.png"
       alt: "TwinFlow self-adversarial flow framework diagram"
       caption: "TwinFlow — Self-adversarial flow framework diagram"
       diagram: true
-    - src: "/images/twinflow_qwen-web.jpg"
+    - src: "/images/thumbs/twinflow_qwen.webp"
+      full_src: "/images/twinflow_qwen-web.jpg"
       alt: "TwinFlow few-step generation showcase on Qwen-Image-20B"
       caption: "TwinFlow — Few-step generation results on Qwen-Image-20B"
       diagram: false
@@ -123,7 +127,8 @@
   url: "https://openreview.net/forum?id=T26f9z2rEe"
   orientation: "landscape"
   slides:
-    - src: "/images/adaptive.jpg"
+    - src: "/images/thumbs/adaptive.webp"
+      full_src: "/images/adaptive.jpg"
       alt: "DynMoE dynamic expert activation and auto-tuning architecture"
       caption: "DynMoE — Dynamic expert activation and auto-tuning architecture"
       diagram: true

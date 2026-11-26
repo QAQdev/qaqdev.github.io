@@ -6,7 +6,8 @@
       {% for slide in paper.slides %}
         <div class="slide-item{% if slide.diagram %} slide-item--diagram{% endif %}{% if forloop.first %} is-active{% endif %}">
           <img
-            src="{{ slide.src | relative_url }}"
+            {% if forloop.first %}src="{{ slide.src | relative_url }}"{% else %}data-src="{{ slide.src | relative_url }}"{% endif %}
+            data-full-src="{{ slide.full_src | default: slide.src | relative_url }}"
             alt="{{ slide.alt }}"
             data-zoomable
             data-caption="{{ slide.caption | default: slide.alt }}"

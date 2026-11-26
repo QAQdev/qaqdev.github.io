@@ -2,7 +2,7 @@ name: Zhenglin Cheng
 short_name: Zhenglin Cheng
 role: "Ph.D. Student at Westlake University & Zhejiang University"
 location: "Shanghai, China"
-avatar: "/images/me-avatar.jpg"
+avatar: "/images/me-avatar.webp"
 email: "zhenglin.cheng@zju.edu.cn"
 email_display: "zju.edu.cn"
 cv_url: "/images/Zhenglin_Cheng_CV.pdf"
@@ -12,7 +12,7 @@ latest_paper_id: "llada-image"
 intro_kicker: "Generative Modeling · World Models"
 intro_body_html: >-
   I am a third-year Ph.D. student at
-  <img class="inline-logo" src="/images/lab-logo.png" alt="LINs Lab">
+  <img class="inline-logo" src="/images/thumbs/lab-logo.webp" alt="LINs Lab">
   <a href="https://lins-lab.github.io" target="_blank" rel="noopener noreferrer">LINs Lab, Westlake University</a>
   (joint program with Zhejiang University), advised by
   <a href="https://tlin-taolin.github.io/" target="_blank" rel="noopener noreferrer">Prof. Tao Lin</a>.
